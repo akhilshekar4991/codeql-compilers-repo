@@ -1,0 +1,1 @@
+"Not enough memory allocated for pointer type","Calling 'malloc', 'calloc' or 'realloc' without allocating enough memory to contain an instance of the type of the pointer may result in a buffer overflow","warning","Type 'int' is 4 bytes, but only 1 bytes are allocated.","/hello_world.cpp","8","20","8","25"

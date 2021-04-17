@@ -1,0 +1,5 @@
+---
+sourceLocationPrefix: "/home/akhil/compilers/codeql/test_dir"
+unicodeNewlines: false
+columnKind: "utf8"
+primaryLanguage: "cpp"

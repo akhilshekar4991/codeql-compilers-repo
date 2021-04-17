@@ -1,0 +1,47 @@
+[2021-04-16 20:33:57] This is codeql database analyze test_codeql_db_1 ../codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql --format=csv --output=size_check.csv
+[2021-04-16 20:33:57] Log file was started late.
+[2021-04-16 20:33:57] [PROGRESS] database analyze> Running queries.
+[2021-04-16 20:33:57] Running plumbing command: codeql database run-queries --ml-model-path= --native-library-path= --warnings=show --no-rerun -- /home/akhil/compilers/codeql/test_dir/test_codeql_db_1 ../codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql
+[2021-04-16 20:33:57] Calling plumbing command: codeql resolve ram --format=json
+[2021-04-16 20:33:57] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2017M",
+                        "--off-heap-ram=2017"
+                      ]
+[2021-04-16 20:33:57] Spawning plumbing command: execute queries -J-Xmx2017M --off-heap-ram=2017 --verbosity=progress --logdir=/home/akhil/compilers/codeql/test_dir/test_codeql_db_1/log --ml-model-path=/home/akhil/compilers/codeql/test_dir --native-library-path=/home/akhil/compilers/codeql/test_dir --warnings=show --no-rerun --output=/home/akhil/compilers/codeql/test_dir/test_codeql_db_1/results -- /home/akhil/compilers/codeql/test_dir/test_codeql_db_1/db-cpp ../codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql
+[2021-04-16 20:34:09] Plumbing command codeql execute queries terminated with status 0.
+[2021-04-16 20:34:09] Plumbing command codeql database run-queries completed with status 0.
+[2021-04-16 20:34:09] [PROGRESS] database analyze> Interpreting results.
+[2021-04-16 20:34:09] Running plumbing command: codeql database interpret-results --format=csv -o=/home/akhil/compilers/codeql/test_dir/size_check.csv --max-paths=4 --csv-location-format=line-column -- /home/akhil/compilers/codeql/test_dir/test_codeql_db_1 ../codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql
+[2021-04-16 20:34:09] Calling plumbing command: codeql resolve queries --format=json -- ../codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql
+[2021-04-16 20:34:09] Plumbing command codeql resolve queries completed:
+                      [
+                        "/home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql"
+                      ]
+[2021-04-16 20:34:09] [DETAILS] database interpret-results> Scanning for qlpack.yml from /home/akhil/compilers/codeql/codeql-home/codeql/.codeqlmanifest.json
+[2021-04-16 20:34:09] [DETAILS] database interpret-results> Scanning for qlpack.yml from /home/akhil/compilers/codeql/codeql-home/
+[2021-04-16 20:34:09] [DETAILS] database interpret-results> Not scanning from /home/akhil/compilers/codeql/codeql-home/codeql which is already done.
+[2021-04-16 20:34:09] [DETAILS] database interpret-results> Scanning for qlpack.yml from /home/akhil/compilers/codeql/codeql-home/codeql-go/.codeqlmanifest.json
+[2021-04-16 20:34:09] [DETAILS] database interpret-results> Scanning for qlpack.yml from /home/akhil/compilers/codeql/codeql-home/codeql-repo/.codeqlmanifest.json
+[2021-04-16 20:34:09] [PROGRESS] database interpret-results> Interpreting /home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql...
+[2021-04-16 20:34:09] Calling plumbing command: codeql resolve library-path --query=/home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql --full-library-path=none --dbscheme=none --format=json
+[2021-04-16 20:34:09] [DETAILS] resolve library-path> Resolving query at normalized path /home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/Critical/SizeCheck.ql.
+[2021-04-16 20:34:09] [DETAILS] resolve library-path> Found enclosing pack 'codeql-cpp' at /home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src.
+[2021-04-16 20:34:09] [DETAILS] resolve library-path> Adding compilation cache at /home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/.cache.
+[2021-04-16 20:34:09] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as /home/akhil/compilers/codeql/test_dir/none
+[2021-04-16 20:34:09] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2021-04-16 20:34:09] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/home/akhil/compilers/codeql/test_dir/none"
+                        ],
+                        "dbscheme" : "/home/akhil/compilers/codeql/test_dir/none",
+                        "compilationCache" : [
+                          "/home/akhil/compilers/codeql/codeql-home/codeql-repo/cpp/ql/src/.cache"
+                        ],
+                        "relativeName" : "codeql-cpp/Critical/SizeCheck.ql",
+                        "qlPackName" : "codeql-cpp"
+                      }
+[2021-04-16 20:34:09] [DETAILS] database interpret-results>  ... found results file at /home/akhil/compilers/codeql/test_dir/test_codeql_db_1/results/codeql-cpp/Critical/SizeCheck.bqrs.
+[2021-04-16 20:34:09] Plumbing command codeql database interpret-results completed.
+[2021-04-16 20:34:09] Terminating normally.
