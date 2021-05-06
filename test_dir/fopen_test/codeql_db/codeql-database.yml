@@ -1,0 +1,5 @@
+---
+sourceLocationPrefix: "/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test"
+unicodeNewlines: false
+columnKind: "utf8"
+primaryLanguage: "cpp"

@@ -1,0 +1,179 @@
+[2021-04-28 00:53:03] This is codeql execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql
+[2021-04-28 00:53:03] Creating executor with 1 threads.
+[2021-04-28 00:53:04] Calling plumbing command: codeql resolve library-path --query=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql --format=json
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> Resolving query at normalized path /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> Found enclosing pack 'workshop-queries-cpp' at /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests.
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> Adding compilation cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/.cache.
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> Resolving library dependencies from /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/qlpack.yml.
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> QL pack dependencies for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests resolved OK.
+[2021-04-28 00:53:04] [DETAILS] resolve library-path> Found dbscheme through QL packs: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme.
+[2021-04-28 00:53:04] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests",
+                          "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src"
+                        ],
+                        "dbscheme" : "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme",
+                        "compilationCache" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/.cache"
+                        ],
+                        "relativeName" : "workshop-queries-cpp/gamma.ql",
+                        "qlPackName" : "workshop-queries-cpp"
+                      }
+[2021-04-28 00:53:04] [PROGRESS] execute queries> Compiling query plan for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:53:04] [DETAILS] execute queries> Resolving imports for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:53:04] Resolved file set for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql hashes to 903d9a373bb04a66ce5f10e16fef0e9828d9f8e5.
+[2021-04-28 00:53:04] [DETAILS] execute queries> Compilation cache hit for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:53:04] [PROGRESS] execute queries> [1/1] Found in cache: /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:53:04] Of 390 predicates, 0 are used in more than one query.
+[2021-04-28 00:53:04] [PROGRESS] execute queries> Starting evaluation of workshop-queries-cpp/gamma.ql.
+[2021-04-28 00:53:04] Starting evaluation of /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql
+[2021-04-28 00:53:04] (0s) Start query execution
+[2021-04-28 00:53:04] CSV_IMB_QUERIES: Query type,Query predicate,Query name,Stage,Success,Time,Number of results,Cumulative time in query
+[2021-04-28 00:53:04] CSV_IMB_QUERIES: Stage,ResolveClass::Cached::resolveClass#ff ResolveClass::Cached::isClass#f ResolveClass::Cached::isType#f,gamma.ql,1,NotRun,0.018,0,30
+[2021-04-28 00:53:04] CSV_CACHE_DIFF: Operation,Overall time,NONE,LOAD_EXTENSIONAL,PAGE_RELATION,SORT_RELATION,NODUPS_RELATION,GLOBAL_DISK_SYNC,GLOBAL_TRIM_DISK,GLOBAL_TRIM_STRINGS,GLOBAL_EVICTOR,SCAN_DISK,IO_TRIMMING,IO_WRITING
+[2021-04-28 00:53:04] CSV_CACHE_DIFF: NotRun-ResolveClass::Cached::resolveClass#ff ResolveClass::Cached::isClass#f ResolveClass::Cached::isType#f (gamma.ql),0.018,0,0,0,0,0,0,0,0,0,0,0,0
+[2021-04-28 00:53:04] CSV_IMB_QUERIES: Stage,Expr::Expr::getType_dispred#ff,gamma.ql,2,NotRun,0.005,0,38
+[2021-04-28 00:53:04] CSV_CACHE_DIFF: NotRun-Expr::Expr::getType_dispred#ff (gamma.ql),0.005,0,0,0,0,0,0,0,0,0,0,0,0
+[2021-04-28 00:53:04] CSV_IMB_QUERIES: Stage,Element::ElementBase::toString_dispred#ff,gamma.ql,3,NotRun,0.01,0,49
+[2021-04-28 00:53:04] CSV_CACHE_DIFF: NotRun-Element::ElementBase::toString_dispred#ff (gamma.ql),0.01,0,0,0,0,0,0,0,0,0,0,0,0
+[2021-04-28 00:53:04] (0s) Beginning execution of gamma.ql
+[2021-04-28 00:53:04] (0s)  >>> Created relation locations_expr/6@d555f9 with 3962 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation locations_stmt/6@4cf233 with 1223 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation locations_default/6@d0a81f with 34335 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Location::Location::fullLocationInfo_dispred#ffffff/6@55da43
+[2021-04-28 00:53:04] (0s)  >>> Created relation Location::Location::fullLocationInfo_dispred#ffffff/6@55da43 with 39520 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation folders/3@146a18 with 31 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation files/5@8ffda8 with 173 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate File::Container::toString#ff/2@f57e52
+[2021-04-28 00:53:04] (0s)  >>> Created relation File::Container::toString#ff/2@f57e52 with 204 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Location::Location::hasLocationInfo_dispred#ffffff/6@f4bab6
+[2021-04-28 00:53:04] (0s)  >>> Created relation Location::Location::hasLocationInfo_dispred#ffffff/6@f4bab6 with 39520 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation for_body/2@d54030 with 18 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation stmtparents/3@c47ac7 with 1599 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation stmts/3@f6486d with 2346 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation exprs/3@078687 with 9259 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation exprparents/3@c6c501 with 6316 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation localvariables/3@bab61c with 136 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation usertypes/3@30a591 with 6191 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate usertypes_0#antijoin_rhs/1@03a80e
+[2021-04-28 00:53:04] (0s)  >>> Created relation usertypes_0#antijoin_rhs/1@03a80e with 6191 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getParent_dispred#ff/2@76d674
+[2021-04-28 00:53:04] (0s)  >>> Created relation Expr::Expr::getParent_dispred#ff/2@76d674 with 6316 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getParent_dispred#ff_10#join_rhs/2@8f9fff
+[2021-04-28 00:53:04] (0s)  >>> Created relation Expr::Expr::getParent_dispred#ff_10#join_rhs/2@8f9fff with 6316 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation stmt_decl_bind/3@1ed85c with 184 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate stmt_decl_bind_20#join_rhs/2@ec8514
+[2021-04-28 00:53:04] (0s)  >>> Created relation stmt_decl_bind_20#join_rhs/2@ec8514 with 184 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation initialisers/4@b2b18d with 494 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation params/4@63c3ba with 5943 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Location::Location::hasLocationInfo_dispred#ffffff_0#antijoin_rhs/1@7c5d84
+[2021-04-28 00:53:04] (0s)  >>> Created relation Location::Location::hasLocationInfo_dispred#ffffff_0#antijoin_rhs/1@7c5d84 with 39520 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation condition_decl_bind/2@71097e with 0 rows.
+[2021-04-28 00:53:04] (0s) Inferred that non-rec relation Expr::Expr::getEnclosingStmt#ff#join_rhs/2 is empty
+[2021-04-28 00:53:04] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff#join_rhs/2@5bbc5e with 0 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation globalvariables/3@e49c27 with 31 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate project#Element::ElementBase::toString_dispred/1@7fbd16
+[2021-04-28 00:53:04] (0s)  >>> Created relation project#Element::ElementBase::toString_dispred/1@7fbd16 with 73867 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation exprconv/2@3ab722 with 2318 rows.
+[2021-04-28 00:53:04] (0s)  >>> Created relation membervariables/3@547322 with 587 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate @variable#f/1@f2dec1
+[2021-04-28 00:53:04] (0s)  >>> Created relation @variable#f/1@f2dec1 with 6697 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Variable::Variable::getInitializer_dispred#ff/2@d110e0
+[2021-04-28 00:53:04] (0s)  >>> Created relation Variable::Variable::getInitializer_dispred#ff/2@d110e0 with 221 rows.
+[2021-04-28 00:53:04] (0s) Inferred that non-rec relation Expr::Expr::getEnclosingStmt#ff#join_rhs#1/2 is empty
+[2021-04-28 00:53:04] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff#join_rhs#1/2@d2863b with 0 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i1#834b4w (iteration 1)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 1242 rows (order for disjuncts: delta=<standard>).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i2#834b4w (iteration 2)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 2298 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i3#834b4w (iteration 3)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 1707 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i4#834b4w (iteration 4)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 612 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i5#834b4w (iteration 5)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 221 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i6#834b4w (iteration 6)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 53 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i7#834b4w (iteration 7)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 6 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i8#834b4w (iteration 8)
+[2021-04-28 00:53:04] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 2 rows (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i9#834b4w (iteration 9)
+[2021-04-28 00:53:04] (0s) Empty delta for Expr::Expr::getEnclosingStmt#ff_delta (order for disjuncts: delta=3163).
+[2021-04-28 00:53:04] (0s) Accumulating deltas
+[2021-04-28 00:53:04] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff/2@834b4w with 6141 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate stmts_10#join_rhs/2@2c4298
+[2021-04-28 00:53:04] (0s)  >>> Created relation stmts_10#join_rhs/2@2c4298 with 2346 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Stmt::Stmt::getParentStmt_dispred#ff/2@5958f7
+[2021-04-28 00:53:04] (0s)  >>> Created relation Stmt::Stmt::getParentStmt_dispred#ff/2@5958f7 with 1599 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Stmt::Stmt::getParentStmt_dispred#ff_10#join_rhs/2@4f63d5
+[2021-04-28 00:53:04] (0s)  >>> Created relation Stmt::Stmt::getParentStmt_dispred#ff_10#join_rhs/2@4f63d5 with 1599 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate files_10#join_rhs/2@30887e
+[2021-04-28 00:53:04] (0s)  >>> Created relation files_10#join_rhs/2@30887e with 173 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Location::Location::fullLocationInfo_dispred#ffffff_10#join_rhs/2@62d5ad
+[2021-04-28 00:53:04] (0s)  >>> Created relation Location::Location::fullLocationInfo_dispred#ffffff_10#join_rhs/2@62d5ad with 39520 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Location::UnknownLocation#b/1@5264cb
+[2021-04-28 00:53:04] (0s)  >>> Created relation Location::UnknownLocation#b/1@5264cb with 3 rows.
+[2021-04-28 00:53:04] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs/2@a02c95
+[2021-04-28 00:53:05] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs/2@a02c95 with 4 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs#1/2@2b53cc
+[2021-04-28 00:53:05] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs#1/2@2b53cc with 4 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs#2/2@1a7f08
+[2021-04-28 00:53:05] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs#2/2@1a7f08 with 1310 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#join_rhs/2@a2ff1d
+[2021-04-28 00:53:05] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#join_rhs/2@a2ff1d with 289 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i1#66d32w (iteration 1)
+[2021-04-28 00:53:05] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 1310 rows (order for disjuncts: delta=<standard>).
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i2#66d32w (iteration 2)
+[2021-04-28 00:53:05] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 232 rows (order for disjuncts: delta=500000).
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i3#66d32w (iteration 3)
+[2021-04-28 00:53:05] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 51 rows (order for disjuncts: delta=500000).
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i4#66d32w (iteration 4)
+[2021-04-28 00:53:05] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 2 rows (order for disjuncts: delta=500000).
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i5#66d32w (iteration 5)
+[2021-04-28 00:53:05] (0s) Empty delta for Stmt::Stmt::getEnclosingBlock#fb_delta (order for disjuncts: delta=500000).
+[2021-04-28 00:53:05] (0s) Accumulating deltas
+[2021-04-28 00:53:05] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb/2@66d32w with 1595 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingBlock_dispred#fb/2@339eca
+[2021-04-28 00:53:05] (0s)  >>> Created relation Expr::Expr::getEnclosingBlock_dispred#fb/2@339eca with 6141 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingBlock_dispred#fb_10#join_rhs/2@1eea53
+[2021-04-28 00:53:05] (0s)  >>> Created relation Expr::Expr::getEnclosingBlock_dispred#fb_10#join_rhs/2@1eea53 with 6141 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate gamma::searchforMulExpression#b/1@5f7a19
+[2021-04-28 00:53:05] (0s)  >>> Created relation gamma::searchforMulExpression#b/1@5f7a19 with 1 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate gamma::searchForsecondForStmt#ff/2@c615f9
+[2021-04-28 00:53:05] (0s)  >>> Created relation gamma::searchForsecondForStmt#ff/2@c615f9 with 1 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate gamma::searchForForStmt#ff/2@d66d16
+[2021-04-28 00:53:05] (0s)  >>> Created relation gamma::searchForForStmt#ff/2@d66d16 with 1 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate #select#ff/2@17d9ad
+[2021-04-28 00:53:05] (0s)  >>> Created relation #select#ff/2@17d9ad with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation project##select#ff/1 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation project##select#ff/1@57cf24 with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation Element::Element::getLocation_dispred#bf/2 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation Element::Element::getLocation_dispred#bf/2@4949f3 with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation #select#query#ffffffffffffff#shared#1/4 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation #select#query#ffffffffffffff#shared#1/4@36e481 with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation project##select#ff#2/1 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation project##select#ff#2/1@1b218b with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation Location::Location::toString_dispred#bf/2 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation Location::Location::toString_dispred#bf/2@2282cf with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation #select#query#ffffffffffffff#shared/2 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation #select#query#ffffffffffffff#shared/2@55337b with 0 rows.
+[2021-04-28 00:53:05] (0s) Inferred that non-rec relation #select#query#ffffffffffffff#antijoin_rhs/3 is empty
+[2021-04-28 00:53:05] (0s)  >>> Created relation #select#query#ffffffffffffff#antijoin_rhs/3@85e0cf with 0 rows.
+[2021-04-28 00:53:05] (0s) Starting to evaluate predicate #select#query#ffffffffffffff/14@55b254
+[2021-04-28 00:53:05] (0s)  >>> Created relation #select#query#ffffffffffffff/14@55b254 with 0 rows.
+[2021-04-28 00:53:05] (0s) Query done
+[2021-04-28 00:53:05] CSV_CACHE_DIFF: #select#query#ffffffffffffff (gamma.ql),0.291,0.196,0.042,0.004,0.03,0.009,0,0,0,0,0,0,0
+[2021-04-28 00:53:05] (0s) Sequence stamp origin is -6597818877668763580
+[2021-04-28 00:53:05] (0s) Stopped the world to sync to disk at sequence stamp o+0
+[2021-04-28 00:53:05] (0s) Starting the world again
+[2021-04-28 00:53:05] CSV_IMB_QUERIES: Query,#select#query#ffffffffffffff,gamma.ql,4,Success,0.291,0,351
+[2021-04-28 00:53:05] Evaluation of /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql produced BQRS results.
+[2021-04-28 00:53:05] [PROGRESS] execute queries> Evaluation completed (376ms).
+[2021-04-28 00:53:05] Constructing in-process plumbing: codeql bqrs decode dummy.bqrs
+[2021-04-28 00:53:05] Shutting down query evaluator.
+[2021-04-28 00:53:05] Stopped the world to close the cache at sequence stamp o+1
+[2021-04-28 00:53:05] The disk cache is freshly trimmed; leave it be.
+[2021-04-28 00:53:05] Starting the world again
+[2021-04-28 00:53:05] Terminating normally.

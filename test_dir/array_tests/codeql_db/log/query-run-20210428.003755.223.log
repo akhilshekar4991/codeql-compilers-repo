@@ -1,0 +1,11 @@
+[2021-04-28 00:37:55] This is codeql query run theta.ql -d=codeql_db
+[2021-04-28 00:37:55] Log file was started late.
+[2021-04-28 00:37:55] Calling plumbing command: codeql resolve ram --format=json
+[2021-04-28 00:37:55] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1591M",
+                        "--off-heap-ram=1591"
+                      ]
+[2021-04-28 00:37:55] Spawning plumbing command: execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/theta.ql
+[2021-04-28 00:37:56] Plumbing command codeql execute queries terminated with status 0.
+[2021-04-28 00:37:56] Exiting with code 0

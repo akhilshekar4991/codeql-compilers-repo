@@ -1,0 +1,11 @@
+[2021-04-28 00:57:56] This is codeql query run gamma.ql -d=codeql_db
+[2021-04-28 00:57:56] Log file was started late.
+[2021-04-28 00:57:56] Calling plumbing command: codeql resolve ram --format=json
+[2021-04-28 00:57:56] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1591M",
+                        "--off-heap-ram=1591"
+                      ]
+[2021-04-28 00:57:56] Spawning plumbing command: execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql
+[2021-04-28 00:58:03] Plumbing command codeql execute queries terminated with status 0.
+[2021-04-28 00:58:03] Exiting with code 0

@@ -1,0 +1,55 @@
+[2021-04-28 00:50:40] This is codeql execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql
+[2021-04-28 00:50:40] Creating executor with 1 threads.
+[2021-04-28 00:50:40] Calling plumbing command: codeql resolve library-path --query=/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql --format=json
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> Resolving query at normalized path /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> Found enclosing pack 'workshop-queries-cpp' at /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests.
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> Adding compilation cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/.cache.
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> Resolving library dependencies from /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/qlpack.yml.
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> QL pack dependencies for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests resolved OK.
+[2021-04-28 00:50:40] [DETAILS] resolve library-path> Found dbscheme through QL packs: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme.
+[2021-04-28 00:50:40] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests",
+                          "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src"
+                        ],
+                        "dbscheme" : "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme",
+                        "compilationCache" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/.cache"
+                        ],
+                        "relativeName" : "workshop-queries-cpp/gamma.ql",
+                        "qlPackName" : "workshop-queries-cpp"
+                      }
+[2021-04-28 00:50:40] [PROGRESS] execute queries> Compiling query plan for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:50:40] [DETAILS] execute queries> Resolving imports for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:50:40] Resolved file set for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql hashes to bc75183dcea50d0d6cbf465967e8e60230b4f321.
+[2021-04-28 00:50:40] [DETAILS] execute queries> Checking QL for /home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql.
+[2021-04-28 00:50:41] ExternalModuleBindingPass ...
+[2021-04-28 00:50:41] ExternalModuleBindingPass time: 00:00.445
+[2021-04-28 00:50:41] QLPredicateSynthesiser ...
+[2021-04-28 00:50:41] QLPredicateSynthesiser time: 00:00.039
+[2021-04-28 00:50:41] DeclarationBindingPass ...
+[2021-04-28 00:50:41] DeclarationBindingPass time: 00:00.049
+[2021-04-28 00:50:41] Fixed point time ...
+[2021-04-28 00:50:41] Fixed point time time: 00:00.267
+[2021-04-28 00:50:41] ReferenceBindingPass ...
+[2021-04-28 00:50:41] ReferenceBindingPass time: 00:00.028
+[2021-04-28 00:50:41] EntityTypeUpdateBindingPass ...
+[2021-04-28 00:50:42] EntityTypeUpdateBindingPass time: 00:00.024
+[2021-04-28 00:50:42] ReferenceBindingCheck ...
+[2021-04-28 00:50:42] ReferenceBindingCheck time: 00:00.019
+[2021-04-28 00:50:42] PredicateBodyBindingPass ...
+[2021-04-28 00:50:42] PredicateBodyBindingPass time: 00:00.273
+[2021-04-28 00:50:42] LanguagePragmaPropagationPass ...
+[2021-04-28 00:50:42] LanguagePragmaPropagationPass time: 00:00.016
+[2021-04-28 00:50:42] Ambiguity checks ...
+[2021-04-28 00:50:42] Ambiguity checks time: 00:00.025
+[2021-04-28 00:50:42] Ql checks ...
+[2021-04-28 00:50:42] Ql checks time: 00:00.222
+[2021-04-28 00:50:42] [ERROR] execute queries> ERROR: extraneous input ')' expecting one of: '}' (/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql:16,42-43)
+[2021-04-28 00:50:42] [ERROR] execute queries> ERROR: Could not resolve variable f3 (/home/akhil/compilers/codeql-compilers-repo/test_dir/array_tests/gamma.ql:16,29-31)
+[2021-04-28 00:50:42] Sequence stamp origin is -6597819494801786959
+[2021-04-28 00:50:42] Stopped the world to close the cache at sequence stamp o+0
+[2021-04-28 00:50:42] The disk cache is freshly trimmed; leave it be.
+[2021-04-28 00:50:42] Starting the world again
+[2021-04-28 00:50:42] Exiting with code 2

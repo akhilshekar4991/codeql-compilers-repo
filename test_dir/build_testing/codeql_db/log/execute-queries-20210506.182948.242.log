@@ -1,0 +1,312 @@
+[2021-05-06 18:29:48] This is codeql execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql
+[2021-05-06 18:29:48] Creating executor with 1 threads.
+[2021-05-06 18:29:48] Calling plumbing command: codeql resolve library-path --query=/home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql --format=json
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> Resolving query at normalized path /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> Found enclosing pack 'workshop-queries-cpp' at /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing.
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> Adding compilation cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/.cache.
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> Resolving library dependencies from /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/qlpack.yml.
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> QL pack dependencies for /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing resolved OK.
+[2021-05-06 18:29:48] [DETAILS] resolve library-path> Found dbscheme through QL packs: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme.
+[2021-05-06 18:29:48] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing",
+                          "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src"
+                        ],
+                        "dbscheme" : "/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql-repo/cpp/ql/src/semmlecode.cpp.dbscheme",
+                        "compilationCache" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/.cache"
+                        ],
+                        "relativeName" : "workshop-queries-cpp/gamma.ql",
+                        "qlPackName" : "workshop-queries-cpp"
+                      }
+[2021-05-06 18:29:48] [PROGRESS] execute queries> Compiling query plan for /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:48] [DETAILS] execute queries> Resolving imports for /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:48] Resolved file set for /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql hashes to e386adea6e89744dd17a290de0c7eb8422c3a7a6.
+[2021-05-06 18:29:48] [DETAILS] execute queries> Checking QL for /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:49] ExternalModuleBindingPass ...
+[2021-05-06 18:29:49] ExternalModuleBindingPass time: 00:00.439
+[2021-05-06 18:29:49] QLPredicateSynthesiser ...
+[2021-05-06 18:29:49] QLPredicateSynthesiser time: 00:00.041
+[2021-05-06 18:29:49] DeclarationBindingPass ...
+[2021-05-06 18:29:49] DeclarationBindingPass time: 00:00.077
+[2021-05-06 18:29:49] Fixed point time ...
+[2021-05-06 18:29:50] Fixed point time time: 00:00.337
+[2021-05-06 18:29:50] ReferenceBindingPass ...
+[2021-05-06 18:29:50] ReferenceBindingPass time: 00:00.031
+[2021-05-06 18:29:50] EntityTypeUpdateBindingPass ...
+[2021-05-06 18:29:50] EntityTypeUpdateBindingPass time: 00:00.028
+[2021-05-06 18:29:50] ReferenceBindingCheck ...
+[2021-05-06 18:29:50] ReferenceBindingCheck time: 00:00.024
+[2021-05-06 18:29:50] PredicateBodyBindingPass ...
+[2021-05-06 18:29:50] PredicateBodyBindingPass time: 00:00.367
+[2021-05-06 18:29:50] LanguagePragmaPropagationPass ...
+[2021-05-06 18:29:50] LanguagePragmaPropagationPass time: 00:00.018
+[2021-05-06 18:29:50] Ambiguity checks ...
+[2021-05-06 18:29:50] Ambiguity checks time: 00:00.028
+[2021-05-06 18:29:50] Ql checks ...
+[2021-05-06 18:29:50] Ql checks time: 00:00.264
+[2021-05-06 18:29:51] Compilation pipeline
+[2021-05-06 18:29:51] Type Inference ...
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: Best number of iterations,Maximum number of runs,Number of BDD variables,Size of BDD for typefacts
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,12,12
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,15,16
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,10,10
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,716,2459
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,31,35
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,5,5
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,8,10
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,8,10
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,8,10
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:51] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,8,10
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2021-05-06 18:29:52] Type Inference time: 00:01.178
+[2021-05-06 18:29:52] Binding Checks ...
+[2021-05-06 18:29:53] Binding Checks time: 00:00.309
+[2021-05-06 18:29:53] [DETAILS] execute queries> Optimizing /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:53] Processing compilation pipeline
+[2021-05-06 18:29:53] Started compiling a query
+[2021-05-06 18:29:53] Initialising compiler...
+[2021-05-06 18:29:53] 	 ... compiler initialised
+[2021-05-06 18:29:53] About to start query optimisation
+[2021-05-06 18:29:53] Compilation cache hit - skipping compilation.
+[2021-05-06 18:29:53] Compilation cache miss for ee33b5642d8e30ee5a099afecd626f43f8212455.
+[2021-05-06 18:29:54] Stored compiled program for ee33b5642d8e30ee5a099afecd626f43f8212455.
+[2021-05-06 18:29:54] CSV_COMPILATION: NONE,MISC,RA_TRANSLATION,OPTIMISATIONS
+[2021-05-06 18:29:54] CSV_COMPILATION: 60,95,230,424
+[2021-05-06 18:29:54] [PROGRESS] execute queries> [1/1 comp 5.7s] Compiled /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql.
+[2021-05-06 18:29:54] Of 126 predicates, 0 are used in more than one query.
+[2021-05-06 18:29:54] [PROGRESS] execute queries> Starting evaluation of workshop-queries-cpp/gamma.ql.
+[2021-05-06 18:29:54] Starting evaluation of /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql
+[2021-05-06 18:29:54] (0s) Start query execution
+[2021-05-06 18:29:54] (0s) Beginning execution of ResolveClass::Cached::resolveClass#ff ResolveClass::Cached::isClass#f ResolveClass::Cached::isType#f
+[2021-05-06 18:29:54] (0s)  >>> Created relation usertypes/3@30a591 with 6191 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate usertypes_20#join_rhs/2@40ef75
+[2021-05-06 18:29:54] (0s)  >>> Created relation usertypes_20#join_rhs/2@40ef75 with 6191 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::Cached::isClass#f/1@35d2e0
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::isClass#f/1@35d2e0 with 2061 rows.
+[2021-05-06 18:29:54] (0s) No need to promote strings for predicate ResolveClass::Cached::isClass#f  as it does not contain computed strings.
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::isClass#f/1@d4f730 with 2061 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation is_complete/1@1fb8fe with 2034 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation mangled_name/2@6ff213 with 6095 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::getClassMangledName#ff/2@43e165
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::getClassMangledName#ff/2@43e165 with 2061 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::onlyOneCompleteClassExistsWithMangledName#f#count_range/2@6a26c9
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::onlyOneCompleteClassExistsWithMangledName#f#count_range/2@6a26c9 with 1933 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::onlyOneCompleteClassExistsWithMangledName#f#join_rhs/2@e73683
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::onlyOneCompleteClassExistsWithMangledName#f#join_rhs/2@e73683 with 748 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::onlyOneCompleteClassExistsWithMangledName#f/1@8b7ab9
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::onlyOneCompleteClassExistsWithMangledName#f/1@8b7ab9 with 499 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::existsCompleteWithMangledName#ff/2@e70c71
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::existsCompleteWithMangledName#ff/2@e70c71 with 499 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::existsIncompleteWithMangledName#ff/2@2931d6
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::existsIncompleteWithMangledName#ff/2@2931d6 with 128 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::hasCompleteTwin#ff/2@8774fd
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::hasCompleteTwin#ff/2@8774fd with 24 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::hasCompleteTwin#ff_10#join_rhs/2@c89fba
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::hasCompleteTwin#ff_10#join_rhs/2@c89fba with 24 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate project#ResolveClass::hasCompleteTwin#ff/1@30b882
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#ResolveClass::hasCompleteTwin#ff/1@30b882 with 24 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation routinetypes/2@12dccd with 397 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation ptrtomembers/3@1f59fc with 21 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate mangled_name#nonempty/0@6bcb7d
+[2021-05-06 18:29:54] (0s)  >>> Created relation mangled_name#nonempty/0@6bcb7d with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::getTopLevelClassName#ff#shared/0@b137d4
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::getTopLevelClassName#ff#shared/0@b137d4 with 0 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation ResolveClass::oldHasCompleteTwin#ff/2 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::oldHasCompleteTwin#ff/2@d4664d with 0 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation ResolveClass::oldHasCompleteTwin#ff_10#join_rhs/2 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::oldHasCompleteTwin#ff_10#join_rhs/2@268d97 with 0 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation project#ResolveClass::oldHasCompleteTwin#ff/1 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#ResolveClass::oldHasCompleteTwin#ff/1@b8a6a3 with 0 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::Cached::resolveClass#ff/2@e3f84d
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::resolveClass#ff/2@e3f84d with 6191 rows.
+[2021-05-06 18:29:54] (0s) No need to promote strings for predicate ResolveClass::Cached::resolveClass#ff  as it does not contain computed strings.
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::resolveClass#ff/2@a0a88e with 6191 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation decltypes/4@5f3a05 with 79 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation derivedtypes/4@070e12 with 4624 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation builtintypes/6@324eec with 47 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate @type#f/1@144788
+[2021-05-06 18:29:54] (0s)  >>> Created relation @type#f/1@144788 with 11354 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate project#ResolveClass::Cached::resolveClass#ff/1@adba26
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#ResolveClass::Cached::resolveClass#ff/1@adba26 with 6167 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate ResolveClass::Cached::isType#f/1@6949de
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::isType#f/1@6949de with 11330 rows.
+[2021-05-06 18:29:54] (0s) No need to promote strings for predicate ResolveClass::Cached::isType#f  as it does not contain computed strings.
+[2021-05-06 18:29:54] (0s)  >>> Created relation ResolveClass::Cached::isType#f/1@aa958b with 11330 rows.
+[2021-05-06 18:29:54] CSV_CACHE_DIFF: Operation,Overall time,NONE,LOAD_EXTENSIONAL,PAGE_RELATION,SORT_RELATION,NODUPS_RELATION,GLOBAL_DISK_SYNC,GLOBAL_TRIM_DISK,GLOBAL_TRIM_STRINGS,GLOBAL_EVICTOR,SCAN_DISK,IO_TRIMMING,IO_WRITING
+[2021-05-06 18:29:54] CSV_CACHE_DIFF: ResolveClass::Cached::resolveClass#ff ResolveClass::Cached::isClass#f ResolveClass::Cached::isType#f (gamma.ql),0.158,0.109,0.027,0.001,0.005,0.002,0,0,0,0,0,0,0
+[2021-05-06 18:29:54] CSV_IMB_QUERIES: Query type,Query predicate,Query name,Stage,Success,Time,Number of results,Cumulative time in query
+[2021-05-06 18:29:54] CSV_IMB_QUERIES: Stage,ResolveClass::Cached::resolveClass#ff ResolveClass::Cached::isClass#f ResolveClass::Cached::isType#f,gamma.ql,1,Success,0.158,19582,165
+[2021-05-06 18:29:54] (0s) Beginning execution of gamma.ql
+[2021-05-06 18:29:54] (0s)  >>> Created relation for_body/2@d54030 with 18 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation stmts/3@f6486d with 2351 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation stmtparents/3@c47ac7 with 1604 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation exprs/3@078687 with 9352 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate for_body_1#join_rhs/1@13f616
+[2021-05-06 18:29:54] (0s)  >>> Created relation for_body_1#join_rhs/1@13f616 with 18 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#shared/1@5df0e0
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#shared/1@5df0e0 with 11 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getParentStmt_dispred#ff/2@5958f7
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getParentStmt_dispred#ff/2@5958f7 with 1604 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getParentStmt_dispred#ff_10#join_rhs/2@4f63d5
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getParentStmt_dispred#ff_10#join_rhs/2@4f63d5 with 1604 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation locations_stmt/6@4cf233 with 1228 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation files/5@8ffda8 with 173 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate project#stmts/1@34f415
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#stmts/1@34f415 with 1228 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate project#Stmt::Stmt::getParentStmt_dispred#ff/1@6971a2
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#Stmt::Stmt::getParentStmt_dispred#ff/1@6971a2 with 999 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate m#Location::UnknownLocation#class#b/1@ff87e3
+[2021-05-06 18:29:54] (0s)  >>> Created relation m#Location::UnknownLocation#class#b/1@ff87e3 with 1228 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Location::UnknownLocation#class#b/1@ac40e4
+[2021-05-06 18:29:54] (0s)  >>> Created relation Location::UnknownLocation#class#b/1@ac40e4 with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs/2@333cc8
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb#antijoin_rhs/2@333cc8 with 0 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i1#1a84cw (iteration 1)
+[2021-05-06 18:29:54] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 18 rows (order for disjuncts: delta=<standard>).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i2#1a84cw (iteration 2)
+[2021-05-06 18:29:54] (0s) 			 - Stmt::Stmt::getEnclosingBlock#fb_delta has 12 rows (order for disjuncts: delta=500000).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb/2@i3#1a84cw (iteration 3)
+[2021-05-06 18:29:54] (0s) Empty delta for Stmt::Stmt::getEnclosingBlock#fb_delta (order for disjuncts: delta=500000).
+[2021-05-06 18:29:54] (0s) Accumulating deltas
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb/2@1a84cw with 30 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Stmt::Stmt::getEnclosingBlock#fb_10#join_rhs/2@96ad39
+[2021-05-06 18:29:54] (0s)  >>> Created relation Stmt::Stmt::getEnclosingBlock#fb_10#join_rhs/2@96ad39 with 30 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation exprparents/3@c6c501 with 6389 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation localvariables/3@bab61c with 138 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate usertypes_0#antijoin_rhs/1@03a80e
+[2021-05-06 18:29:54] (0s)  >>> Created relation usertypes_0#antijoin_rhs/1@03a80e with 6191 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getParent_dispred#ff/2@76d674
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getParent_dispred#ff/2@76d674 with 6389 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getParent_dispred#ff_10#join_rhs/2@8f9fff
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getParent_dispred#ff_10#join_rhs/2@8f9fff with 6389 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation stmt_decl_bind/3@1ed85c with 186 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate stmt_decl_bind_20#join_rhs/2@ec8514
+[2021-05-06 18:29:54] (0s)  >>> Created relation stmt_decl_bind_20#join_rhs/2@ec8514 with 186 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation initialisers/4@b2b18d with 496 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate project#initialisers/1@f086e5
+[2021-05-06 18:29:54] (0s)  >>> Created relation project#initialisers/1@f086e5 with 496 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation condition_decl_bind/2@71097e with 0 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate m#Variable::Variable#class#b/1@0b7fc1
+[2021-05-06 18:29:54] (0s)  >>> Created relation m#Variable::Variable#class#b/1@0b7fc1 with 496 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation params/4@63c3ba with 5943 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation Expr::Expr::getEnclosingStmt#ff#shared/2 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff#shared/2@eb67e1 with 0 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation Expr::Expr::getEnclosingStmt#ff#join_rhs/2 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff#join_rhs/2@7da800 with 0 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation exprconv/2@3ab722 with 2341 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation globalvariables/3@e49c27 with 31 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation membervariables/3@547322 with 587 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Variable::Variable#class#b/1@09f105
+[2021-05-06 18:29:54] (0s)  >>> Created relation Variable::Variable#class#b/1@09f105 with 223 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Variable::Variable::getInitializer_dispred#ff/2@2ad25b
+[2021-05-06 18:29:54] (0s)  >>> Created relation Variable::Variable::getInitializer_dispred#ff/2@2ad25b with 223 rows.
+[2021-05-06 18:29:54] (0s) Inferred that non-rec relation Expr::Expr::getEnclosingStmt#ff#join_rhs#1/2 is empty
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff#join_rhs#1/2@e6cdaa with 0 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i1#256e0w (iteration 1)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 1248 rows (order for disjuncts: delta=<standard>).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i2#256e0w (iteration 2)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 2323 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i3#256e0w (iteration 3)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 1714 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i4#256e0w (iteration 4)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 642 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i5#256e0w (iteration 5)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 239 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i6#256e0w (iteration 6)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 63 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i7#256e0w (iteration 7)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 6 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i8#256e0w (iteration 8)
+[2021-05-06 18:29:54] (0s) 			 - Expr::Expr::getEnclosingStmt#ff_delta has 2 rows (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff/2@i9#256e0w (iteration 9)
+[2021-05-06 18:29:54] (0s) Empty delta for Expr::Expr::getEnclosingStmt#ff_delta (order for disjuncts: delta=3163).
+[2021-05-06 18:29:54] (0s) Accumulating deltas
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff/2@256e0w with 6237 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingStmt#ff_10#join_rhs/2@0f3c97
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingStmt#ff_10#join_rhs/2@0f3c97 with 6237 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingBlock_dispred#fb/2@bc2d25
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingBlock_dispred#fb/2@bc2d25 with 237 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Expr::Expr::getEnclosingBlock_dispred#fb_10#join_rhs/2@7cdcf5
+[2021-05-06 18:29:54] (0s)  >>> Created relation Expr::Expr::getEnclosingBlock_dispred#fb_10#join_rhs/2@7cdcf5 with 237 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate gamma::searchforMulExpression#b/1@425f41
+[2021-05-06 18:29:54] (0s)  >>> Created relation gamma::searchforMulExpression#b/1@425f41 with 6 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate gamma::searchForsecondForStmt#ff/2@3d7799
+[2021-05-06 18:29:54] (0s)  >>> Created relation gamma::searchForsecondForStmt#ff/2@3d7799 with 6 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate gamma::searchForForStmt#ff/2@61fa06
+[2021-05-06 18:29:54] (0s)  >>> Created relation gamma::searchForForStmt#ff/2@61fa06 with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate #select#cpe#1#f/1@287d99
+[2021-05-06 18:29:54] (0s)  >>> Created relation #select#cpe#1#f/1@287d99 with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate m#File::Container::getAbsolutePath_dispred#bf/1@c5671a
+[2021-05-06 18:29:54] (0s)  >>> Created relation m#File::Container::getAbsolutePath_dispred#bf/1@c5671a with 1 rows.
+[2021-05-06 18:29:54] (0s)  >>> Created relation folders/3@146a18 with 31 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate File::Container::getAbsolutePath_dispred#bf/2@69cc25
+[2021-05-06 18:29:54] (0s)  >>> Created relation File::Container::getAbsolutePath_dispred#bf/2@69cc25 with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Location::Location::hasLocationInfo_dispred#bfffff/6@afde6c
+[2021-05-06 18:29:54] (0s)  >>> Created relation Location::Location::hasLocationInfo_dispred#bfffff/6@afde6c with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Location::Location::toString_dispred#bf/2@aae06f
+[2021-05-06 18:29:54] (0s)  >>> Created relation Location::Location::toString_dispred#bf/2@aae06f with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Location::Location::toString_dispred#bf_0#antijoin_rhs/1@4d5643
+[2021-05-06 18:29:54] (0s)  >>> Created relation Location::Location::toString_dispred#bf_0#antijoin_rhs/1@4d5643 with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate Location::Location::hasLocationInfo_dispred#bfffff_0#antijoin_rhs/1@08985a
+[2021-05-06 18:29:54] (0s)  >>> Created relation Location::Location::hasLocationInfo_dispred#bfffff_0#antijoin_rhs/1@08985a with 1 rows.
+[2021-05-06 18:29:54] (0s) Starting to evaluate predicate #select#query#fffffffff/9@eb1a5b
+[2021-05-06 18:29:54] (0s)  >>> Created relation #select#query#fffffffff/9@eb1a5b with 1 rows.
+[2021-05-06 18:29:54] (0s) Query done
+[2021-05-06 18:29:54] CSV_CACHE_DIFF: #select#query#fffffffff (gamma.ql),0.105,0.089,0.011,0.005,0.001,0.001,0,0,0,0,0,0,0
+[2021-05-06 18:29:54] (0s) Sequence stamp origin is -6594577876502856792
+[2021-05-06 18:29:54] (0s) Stopped the world to sync to disk at sequence stamp o+0
+[2021-05-06 18:29:54] (0s) Starting the world again
+[2021-05-06 18:29:54] CSV_IMB_QUERIES: Query,#select#query#fffffffff,gamma.ql,2,Success,0.105,1,288
+[2021-05-06 18:29:54] Evaluation of /home/akhil/compilers/codeql-compilers-repo/test_dir/build_testing/gamma.ql produced BQRS results.
+[2021-05-06 18:29:54] [PROGRESS] execute queries> Evaluation completed (300ms).
+[2021-05-06 18:29:54] Constructing in-process plumbing: codeql bqrs decode dummy.bqrs
+[2021-05-06 18:29:54] Shutting down query evaluator.
+[2021-05-06 18:29:54] Stopped the world to close the cache at sequence stamp o+1
+[2021-05-06 18:29:54] Doing closing disk-cache trim now.
+[2021-05-06 18:29:54] After trimming, disk cache uses 104576 bytes
+[2021-05-06 18:29:54] Starting the world again
+[2021-05-06 18:29:54] Terminating normally.

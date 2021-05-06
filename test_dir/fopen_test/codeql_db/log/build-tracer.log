@@ -1,0 +1,1154 @@
+[T 12:37:42 12252] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/configure
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: <null>
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/do-prebuild
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: <null>
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/collect2
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--linker"
+[T 12:37:42 12252] Prepend[1] "--semmle-linker-executable"
+[T 12:37:42 12252] Prepend[2] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/lld*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--linker"
+[T 12:37:42 12252] Prepend[1] "--semmle-linker-executable"
+[T 12:37:42 12252] Prepend[2] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/*-ld*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--linker"
+[T 12:37:42 12252] Prepend[1] "--semmle-linker-executable"
+[T 12:37:42 12252] Prepend[2] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/ld*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--linker"
+[T 12:37:42 12252] Prepend[1] "--semmle-linker-executable"
+[T 12:37:42 12252] Prepend[2] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/armlink
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--arm-linker"
+[T 12:37:42 12252] Prepend[1] "--semmle-linker-executable"
+[T 12:37:42 12252] Prepend[2] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/icpc
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--mimic"
+[T 12:37:42 12252] Prepend[1] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/*++*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--mimic"
+[T 12:37:42 12252] Prepend[1] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/*cc*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--mimic"
+[T 12:37:42 12252] Prepend[1] "${compiler}"
+[T 12:37:42 12252] Compilers file as of 2021-04-26 12:37:42
+[T 12:37:42 12252] Compiler pattern: **/*clang*
+[T 12:37:42 12252] Replace intercepted call: 0
+[T 12:37:42 12252] Extractor: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor
+[T 12:37:42 12252] Prepend[0] "--mimic"
+[T 12:37:42 12252] Prepend[1] "${compiler}"
+[T 12:37:42 12252] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12252] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 12:37:42 12252] ==== Candidate to intercept: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/tools/linux64/runner-linux (canonical: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/tools/linux64/runner-linux) ====
+[T 12:37:42 12252] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12252] ==== Candidate to intercept: gcc (canonical: gcc) ====
+[T 12:37:42 12252] Will try to resolve gcc in path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bujji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bujji/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Bujji/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin.
+[T 12:37:42 12252]  -> path lookup for gcc as /usr/local/sbin/gcc...
+[T 12:37:42 12252]  -> path lookup for gcc as /usr/local/bin/gcc...
+[T 12:37:42 12252]  -> path lookup for gcc as /usr/sbin/gcc...
+[T 12:37:42 12252]  -> path lookup for gcc as /usr/bin/gcc...
+[T 12:37:42 12252] ==== Candidate to intercept: /usr/bin/gcc (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12252] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12252] Resolved barename gcc to /usr/bin/gcc, which matched **/*cc*...
+[T 12:37:42 12254] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12254] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12254] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12259] Attempting to switch stdout/stderr to 3...
+[T 12:37:42 12259] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12259] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12259] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12259] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -imultiarch x86_64-linux-gnu fopen_test.c -quiet -dumpbase fopen_test.c -mtune=generic -march=x86-64 -auxbase fopen_test -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrHqwVJ.s
+[T 12:37:42 12260] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12260] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12260] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12262] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12262] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12262] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12262] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12262] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 --version
+[E 12:37:42 12262] Within classification loop; exiting.
+[T 12:37:42 12260] Extractor terminated with exit code 0.
+[T 12:37:42 12263] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12263] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12263] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12265] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12265] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12265] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12265] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12265] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 --help
+[E 12:37:42 12265] Within classification loop; exiting.
+[T 12:37:42 12263] Extractor terminated with exit code 0.
+[E 12:37:42 12259] Not a compiler; exiting. Reason: --version stdout was:
+
+--version stderr was:
+
+process exited with code 0
+
+[T 12:37:42 12254] Extractor terminated with exit code 0.
+[T 12:37:42 12266] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12266] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:42 12266] Will try to resolve as in path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bujji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bujji/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Bujji/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin.
+[T 12:37:42 12266]  -> path lookup for as as /usr/local/sbin/as...
+[T 12:37:42 12266]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:42 12266]  -> path lookup for as as /usr/sbin/as...
+[T 12:37:42 12266]  -> path lookup for as as /usr/bin/as...
+[T 12:37:42 12266] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 12:37:42 12266] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:42 12267] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12267] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/collect2 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/collect2) ====
+[T 12:37:42 12267] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/collect2 === 
+[T 12:37:42 12268] Attempting to switch stdout/stderr to 3...
+[T 12:37:42 12268] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12268] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12268] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12268] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBQvnNI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. /tmp/ccVXVVJJ.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+Warning: Unrecognised command line argument -plugin
+Warning: Unrecognised command line argument -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+Warning: Unrecognised command line argument -plugin-opt=-fresolution=/tmp/ccBQvnNI.res
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument --build-id
+Warning: Unrecognised command line argument --push-state
+Warning: Unrecognised command line argument --pop-state
+Warning: Unrecognised command line argument --push-state
+Warning: Unrecognised command line argument --pop-state
+[E 12:37:42 12268] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[T 12:37:42 12269] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12269] ==== Candidate to intercept: /usr/bin/ld (canonical: /usr/bin/x86_64-linux-gnu-ld.bfd) ====
+[T 12:37:42 12269] === Intercepted call to /usr/bin/x86_64-linux-gnu-ld.bfd === 
+[T 12:37:42 12270] Attempting to switch stdout/stderr to 3...
+[T 12:37:42 12270] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12270] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12270] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12270] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/bin/x86_64-linux-gnu-ld.bfd -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBQvnNI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. /tmp/ccVXVVJJ.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+Warning: Unrecognised command line argument -plugin
+Warning: Unrecognised command line argument -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+Warning: Unrecognised command line argument -plugin-opt=-fresolution=/tmp/ccBQvnNI.res
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc
+Warning: Unrecognised command line argument -plugin-opt=-pass-through=-lgcc_s
+Warning: Unrecognised command line argument --build-id
+Warning: Unrecognised command line argument --push-state
+Warning: Unrecognised command line argument --pop-state
+Warning: Unrecognised command line argument --push-state
+Warning: Unrecognised command line argument --pop-state
+[E 12:37:42 12270] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[T 12:37:42 12271] Attempting to switch stdout/stderr to 3...
+[T 12:37:42 12271] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12271] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12271] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12271] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 fopen_test.c
+[T 12:37:42 12272] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12272] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12272] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12274] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12274] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12274] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12274] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12274] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 --version
+[E 12:37:42 12274] Within classification loop; exiting.
+[T 12:37:42 12272] Extractor terminated with exit code 0.
+[T 12:37:42 12275] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12275] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12275] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12277] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12277] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12277] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12277] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12277] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 --help
+[E 12:37:42 12277] Within classification loop; exiting.
+[T 12:37:42 12275] Extractor terminated with exit code 0.
+[T 12:37:42 12278] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12278] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12278] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12280] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12280] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12280] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12282] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12282] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12282] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12282] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12282] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -nostdinc -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_2_12271_636387.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccguzuhG.s
+[E 12:37:42 12282] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12280] Extractor terminated with exit code 0.
+[T 12:37:42 12283] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12283] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:42 12283] Will try to resolve as in path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bujji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bujji/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Bujji/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin.
+[T 12:37:42 12283]  -> path lookup for as as /usr/local/sbin/as...
+[T 12:37:42 12283]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:42 12283]  -> path lookup for as as /usr/sbin/as...
+[T 12:37:42 12283]  -> path lookup for as as /usr/bin/as...
+[T 12:37:42 12283] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 12:37:42 12283] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:42 12284] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12284] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12284] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12284] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12284] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -nostdinc -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_2_12271_636387.o -c /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c
+[E 12:37:42 12284] Within classification loop; exiting.
+[T 12:37:42 12278] Extractor terminated with exit code 0.
+[T 12:37:42 12285] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12285] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12285] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12287] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12287] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12287] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12289] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12289] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12289] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12289] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12289] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -nostdinc -v -imultiarch x86_64-linux-gnu -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35 /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_2_12271_636387.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccF6hNef.s
+[E 12:37:42 12289] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12287] Extractor terminated with exit code 0.
+[T 12:37:42 12290] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12290] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:42 12290] Will try to resolve as in path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bujji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bujji/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Bujji/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin.
+[T 12:37:42 12290]  -> path lookup for as as /usr/local/sbin/as...
+[T 12:37:42 12290]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:42 12290]  -> path lookup for as as /usr/sbin/as...
+[T 12:37:42 12290]  -> path lookup for as as /usr/bin/as...
+[T 12:37:42 12290] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 12:37:42 12290] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:42 12291] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12291] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12291] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12291] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12291] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -nostdinc -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_2_12271_636387.o -c /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_1_12271_636376semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -v -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35
+[E 12:37:42 12291] Within classification loop; exiting.
+[T 12:37:42 12285] Extractor terminated with exit code 0.
+[T 12:37:42 12292] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12292] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12292] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12294] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12294] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12294] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12296] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12296] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12296] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12296] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12296] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -nostdinc -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_4_12271_662839.c -quiet -dumpbase semmle_4_12271_662839.c -mtune=generic -march=x86-64 -auxbase-strip /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_5_12271_662856.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccjJIjYH.s
+[E 12:37:42 12296] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12294] Extractor terminated with exit code 0.
+[T 12:37:42 12297] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12297] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12297] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12297] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12297] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -nostdinc -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_5_12271_662856.o -c /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_4_12271_662839.c
+[E 12:37:42 12297] Within classification loop; exiting.
+[T 12:37:42 12292] Extractor terminated with exit code 0.
+[T 12:37:42 12298] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12298] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12298] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12300] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12300] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12300] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12302] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12302] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12302] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12302] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12302] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_7_12271_670221 -quiet -dumpbase semmle_7_12271_670221 -mtune=generic -march=x86-64 -auxbase semmle_7_12271_670221 -version -fsyntax-only -o /dev/null -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+[E 12:37:42 12302] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12300] Extractor terminated with exit code 0.
+[T 12:37:42 12303] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12303] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12303] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12303] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12303] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -x c -v -fsyntax-only /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_7_12271_670221
+[E 12:37:42 12303] Within classification loop; exiting.
+[T 12:37:42 12298] Extractor terminated with exit code 0.
+[T 12:37:42 12304] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12304] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12304] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12306] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12306] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12306] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12308] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12308] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12308] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12308] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12308] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -E -quiet -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_8_12271_677753 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -dM
+[E 12:37:42 12308] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12306] Extractor terminated with exit code 0.
+[T 12:37:42 12309] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12309] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12309] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12309] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12309] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -x c -E -dM /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_8_12271_677753
+[E 12:37:42 12309] Within classification loop; exiting.
+[T 12:37:42 12304] Extractor terminated with exit code 0.
+[T 12:37:42 12310] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12310] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12310] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12312] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12312] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12312] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12314] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12314] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12314] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12314] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12314] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_9_12271_684561.h -quiet -dumpbase semmle_9_12271_684561.h -mtune=generic -march=x86-64 -auxbase semmle_9_12271_684561 -Wreturn-type -fmax-errors=0 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZU3lj7.s --output-pch= /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_9_12271_684561.h.gch
+[E 12:37:42 12314] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12312] Extractor terminated with exit code 0.
+[T 12:37:42 12315] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12315] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12315] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12315] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12315] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -x c-header -fmax-errors=0 -Wreturn-type -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_9_12271_684561.h.gch /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_9_12271_684561.h
+[E 12:37:42 12315] Within classification loop; exiting.
+[T 12:37:42 12310] Extractor terminated with exit code 0.
+[T 12:37:42 12316] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12316] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:42 12316] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:42 12318] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:42 12318] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:42 12318] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:42 12320] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12320] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12320] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12320] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12320] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -imultiarch x86_64-linux-gnu - -quiet -dumpbase - -mtune=generic -march=x86-64 -auxbase - -Wreturn-type -fmax-errors=0 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvHeQtx.s
+[E 12:37:42 12320] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:42 12318] Extractor terminated with exit code 0.
+[T 12:37:42 12321] Attempting to switch stdout/stderr to 5...
+[T 12:37:42 12321] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:42 12321] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:42 12321] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:42 12321] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -x c -fmax-errors=0 -Wreturn-type -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_9_12271_684561.h.gch -
+[E 12:37:42 12321] Within classification loop; exiting.
+[T 12:37:42 12316] Extractor terminated with exit code 0.
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32,  _Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x,  _Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64,  _Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x,  _Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(const char *)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '_Float128 (*)(_Float128)'
+Warning: Could not parse function type '_Float32 (*)(_Float32)'
+Warning: Could not parse function type '_Float32x (*)(_Float32x)'
+Warning: Could not parse function type '_Float64 (*)(_Float64)'
+Warning: Could not parse function type '_Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Float128 (*)(_Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Float32 (*)(_Float32)'
+Warning: Could not parse function type '__attribute__((const)) _Float32x (*)(_Float32x)'
+Warning: Could not parse function type '__attribute__((const)) _Float64 (*)(_Float64)'
+Warning: Could not parse function type '__attribute__((const)) _Float64x (*)(_Float64x)'
+Warning: Could not parse function type '__attribute__((const)) _Complex _Float128 (*)(_Float128,  _Float128,  _Float128,  _Float128)'
+Warning: Could not parse function type '__attribute__((const)) _Complex _Float128 (*)(_Float128,  _Float128,  _Float128,  _Float128)'
+Warning: Failed to find information about possible built-in _Alignas
+Warning: Failed to find information about possible built-in _Alignof
+Warning: Failed to find information about possible built-in _Exit
+Warning: Failed to find information about possible built-in _Float16
+Warning: Failed to find information about possible built-in _Pragma
+Warning: Failed to find information about possible built-in _Static_assert
+Warning: Failed to find information about possible built-in _Unwind_Resume
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Register
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Unregister
+Warning: Failed to find information about possible built-in __GIMPLE
+Warning: Failed to find information about possible built-in __PHI
+Warning: Failed to find information about possible built-in __RTL
+Warning: Failed to find information about possible built-in __VA_OPT__
+Warning: Failed to find information about possible built-in __atomic_add_fetch
+Warning: Failed to find information about possible built-in __atomic_always_lock_free
+Warning: Failed to find information about possible built-in __atomic_and_fetch
+Warning: Failed to find information about possible built-in __atomic_clear
+Warning: Failed to find information about possible built-in __atomic_compare_exchange_n
+Warning: Failed to find information about possible built-in __atomic_exchange_n
+Warning: Failed to find information about possible built-in __atomic_feraiseexcept
+Warning: Failed to find information about possible built-in __atomic_fetch_add
+Warning: Failed to find information about possible built-in __atomic_fetch_and
+Warning: Failed to find information about possible built-in __atomic_fetch_nand
+Warning: Failed to find information about possible built-in __atomic_fetch_or
+Warning: Failed to find information about possible built-in __atomic_fetch_sub
+Warning: Failed to find information about possible built-in __atomic_fetch_xor
+Warning: Failed to find information about possible built-in __atomic_is_lock_free
+Warning: Failed to find information about possible built-in __atomic_load_n
+Warning: Failed to find information about possible built-in __atomic_nand_fetch
+Warning: Failed to find information about possible built-in __atomic_or_fetch
+Warning: Failed to find information about possible built-in __atomic_signal_fence
+Warning: Failed to find information about possible built-in __atomic_store_n
+Warning: Failed to find information about possible built-in __atomic_sub_fetch
+Warning: Failed to find information about possible built-in __atomic_test_and_set
+Warning: Failed to find information about possible built-in __atomic_thread_fence
+Warning: Failed to find information about possible built-in __atomic_xor_fetch
+Warning: Failed to find information about possible built-in __builtin_FILE
+Warning: Failed to find information about possible built-in __builtin_FUNCTION
+Warning: Failed to find information about possible built-in __builtin_LINE
+Warning: Failed to find information about possible built-in __builtin_add_overflow
+Warning: Failed to find information about possible built-in __builtin_add_overflow_p
+Warning: Failed to find information about possible built-in __builtin_aggregate_incoming_address
+Warning: Failed to find information about possible built-in __builtin_apply
+Warning: Failed to find information about possible built-in __builtin_apply_args
+Warning: Failed to find information about possible built-in __builtin_assume_aligned
+Warning: Failed to find information about possible built-in __builtin_bswap16
+Warning: Failed to find information about possible built-in __builtin_bswap32
+Warning: Failed to find information about possible built-in __builtin_bswap64
+Warning: Failed to find information about possible built-in __builtin_call_with_static_chain
+Warning: Failed to find information about possible built-in __builtin_cexpi
+Warning: Failed to find information about possible built-in __builtin_cexpif
+Warning: Failed to find information about possible built-in __builtin_cexpil
+Warning: Failed to find information about possible built-in __builtin_classify_type
+Warning: Failed to find information about possible built-in __builtin_clrsb
+Warning: Failed to find information about possible built-in __builtin_clrsbimax
+Warning: Failed to find information about possible built-in __builtin_clrsbl
+Warning: Failed to find information about possible built-in __builtin_clrsbll
+Warning: Failed to find information about possible built-in __builtin_clz
+Warning: Failed to find information about possible built-in __builtin_clzimax
+Warning: Failed to find information about possible built-in __builtin_clzl
+Warning: Failed to find information about possible built-in __builtin_clzll
+Warning: Failed to find information about possible built-in __builtin_constant_p
+Warning: Failed to find information about possible built-in __builtin_cpu_init
+Warning: Failed to find information about possible built-in __builtin_cpu_is
+Warning: Failed to find information about possible built-in __builtin_cpu_supports
+Warning: Failed to find information about possible built-in __builtin_ctz
+Warning: Failed to find information about possible built-in __builtin_ctzimax
+Warning: Failed to find information about possible built-in __builtin_ctzl
+Warning: Failed to find information about possible built-in __builtin_ctzll
+Warning: Failed to find information about possible built-in __builtin_dwarf_cfa
+Warning: Failed to find information about possible built-in __builtin_dwarf_sp_column
+Warning: Failed to find information about possible built-in __builtin_eh_return
+Warning: Failed to find information about possible built-in __builtin_eh_return_data_regno
+Warning: Failed to find information about possible built-in __builtin_expect
+Warning: Failed to find information about possible built-in __builtin_expect_with_probability
+Warning: Failed to find information about possible built-in __builtin_extend_pointer
+Warning: Failed to find information about possible built-in __builtin_extract_return_addr
+Warning: Failed to find information about possible built-in __builtin_fabsd128
+Warning: Failed to find information about possible built-in __builtin_fabsd32
+Warning: Failed to find information about possible built-in __builtin_fabsd64
+Warning: Failed to find information about possible built-in __builtin_fpclassify
+Warning: Failed to find information about possible built-in __builtin_frame_address
+Warning: Failed to find information about possible built-in __builtin_frob_return_addr
+Warning: Failed to find information about possible built-in __builtin_hsa_currentworkgroupsize
+Warning: Failed to find information about possible built-in __builtin_hsa_gridsize
+Warning: Failed to find information about possible built-in __builtin_hsa_workgroupid
+Warning: Failed to find information about possible built-in __builtin_hsa_workitemabsid
+Warning: Failed to find information about possible built-in __builtin_hsa_workitemid
+Warning: Failed to find information about possible built-in __builtin_huge_val
+Warning: Failed to find information about possible built-in __builtin_huge_valf
+Warning: Failed to find information about possible built-in __builtin_huge_valf128
+Warning: Failed to find information about possible built-in __builtin_huge_valf32
+Warning: Failed to find information about possible built-in __builtin_huge_valf32x
+Warning: Failed to find information about possible built-in __builtin_huge_valf64
+Warning: Failed to find information about possible built-in __builtin_huge_valf64x
+Warning: Failed to find information about possible built-in __builtin_huge_vall
+Warning: Failed to find information about possible built-in __builtin_huge_valq
+Warning: Failed to find information about possible built-in __builtin_ia32_addcarryx_u32
+Warning: Failed to find information about possible built-in __builtin_ia32_addcarryx_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_addpd
+Warning: Failed to find information about possible built-in __builtin_ia32_addps
+Warning: Failed to find information about possible built-in __builtin_ia32_addsd
+Warning: Failed to find information about possible built-in __builtin_ia32_addss
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdec128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesdeclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesenclast128
+Warning: Failed to find information about possible built-in __builtin_ia32_aesimc128
+Warning: Failed to find information about possible built-in __builtin_ia32_aeskeygenassist128
+Warning: Failed to find information about possible built-in __builtin_ia32_andnpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andnps
+Warning: Failed to find information about possible built-in __builtin_ia32_andpd
+Warning: Failed to find information about possible built-in __builtin_ia32_andps
+Warning: Failed to find information about possible built-in __builtin_ia32_bsrdi
+Warning: Failed to find information about possible built-in __builtin_ia32_bsrsi
+Warning: Failed to find information about possible built-in __builtin_ia32_clflush
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpeqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpgtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmplesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpneqss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngeps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpngtps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlepd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnleps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnlesd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnless
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpnltss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpordss
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordpd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordps
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordsd
+Warning: Failed to find information about possible built-in __builtin_ia32_cmpunordss
+Warning: Failed to find information about possible built-in __builtin_ia32_comieq
+Warning: Failed to find information about possible built-in __builtin_ia32_comige
+Warning: Failed to find information about possible built-in __builtin_ia32_comigt
+Warning: Failed to find information about possible built-in __builtin_ia32_comile
+Warning: Failed to find information about possible built-in __builtin_ia32_comilt
+Warning: Failed to find information about possible built-in __builtin_ia32_comineq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_comisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignpd
+Warning: Failed to find information about possible built-in __builtin_ia32_copysignps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtdq2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpd2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtpi2ps
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsd2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi2ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtsi642ss
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2sd
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvtss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttpd2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2dq
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttps2pi
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttsd2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si
+Warning: Failed to find information about possible built-in __builtin_ia32_cvttss2si64
+Warning: Failed to find information about possible built-in __builtin_ia32_divpd
+Warning: Failed to find information about possible built-in __builtin_ia32_divps
+Warning: Failed to find information about possible built-in __builtin_ia32_divsd
+Warning: Failed to find information about possible built-in __builtin_ia32_divss
+Warning: Failed to find information about possible built-in __builtin_ia32_emms
+Warning: Failed to find information about possible built-in __builtin_ia32_fldenv
+Warning: Failed to find information about possible built-in __builtin_ia32_fnclex
+Warning: Failed to find information about possible built-in __builtin_ia32_fnstenv
+Warning: Failed to find information about possible built-in __builtin_ia32_fnstsw
+Warning: Failed to find information about possible built-in __builtin_ia32_fxrstor
+Warning: Failed to find information about possible built-in __builtin_ia32_fxrstor64
+Warning: Failed to find information about possible built-in __builtin_ia32_fxsave
+Warning: Failed to find information about possible built-in __builtin_ia32_fxsave64
+Warning: Failed to find information about possible built-in __builtin_ia32_ldmxcsr
+Warning: Failed to find information about possible built-in __builtin_ia32_lfence
+Warning: Failed to find information about possible built-in __builtin_ia32_loaddqu
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadhps
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlpd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadlps
+Warning: Failed to find information about possible built-in __builtin_ia32_loadupd
+Warning: Failed to find information about possible built-in __builtin_ia32_loadups
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovdqu
+Warning: Failed to find information about possible built-in __builtin_ia32_maskmovq
+Warning: Failed to find information about possible built-in __builtin_ia32_maxpd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxps
+Warning: Failed to find information about possible built-in __builtin_ia32_maxsd
+Warning: Failed to find information about possible built-in __builtin_ia32_maxss
+Warning: Failed to find information about possible built-in __builtin_ia32_mfence
+Warning: Failed to find information about possible built-in __builtin_ia32_minpd
+Warning: Failed to find information about possible built-in __builtin_ia32_minps
+Warning: Failed to find information about possible built-in __builtin_ia32_minsd
+Warning: Failed to find information about possible built-in __builtin_ia32_minss
+Warning: Failed to find information about possible built-in __builtin_ia32_movhlps
+Warning: Failed to find information about possible built-in __builtin_ia32_movlhps
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movmskps
+Warning: Failed to find information about possible built-in __builtin_ia32_movntdq
+Warning: Failed to find information about possible built-in __builtin_ia32_movnti
+Warning: Failed to find information about possible built-in __builtin_ia32_movnti64
+Warning: Failed to find information about possible built-in __builtin_ia32_movntpd
+Warning: Failed to find information about possible built-in __builtin_ia32_movntps
+Warning: Failed to find information about possible built-in __builtin_ia32_movntq
+Warning: Failed to find information about possible built-in __builtin_ia32_movq128
+Warning: Failed to find information about possible built-in __builtin_ia32_movsd
+Warning: Failed to find information about possible built-in __builtin_ia32_movss
+Warning: Failed to find information about possible built-in __builtin_ia32_mulpd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulps
+Warning: Failed to find information about possible built-in __builtin_ia32_mulsd
+Warning: Failed to find information about possible built-in __builtin_ia32_mulss
+Warning: Failed to find information about possible built-in __builtin_ia32_orpd
+Warning: Failed to find information about possible built-in __builtin_ia32_orps
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsb
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsd
+Warning: Failed to find information about possible built-in __builtin_ia32_pabsw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw
+Warning: Failed to find information about possible built-in __builtin_ia32_packssdw128
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packsswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb
+Warning: Failed to find information about possible built-in __builtin_ia32_packuswb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd
+Warning: Failed to find information about possible built-in __builtin_ia32_paddd128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq
+Warning: Failed to find information about possible built-in __builtin_ia32_paddq128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw
+Warning: Failed to find information about possible built-in __builtin_ia32_paddw128
+Warning: Failed to find information about possible built-in __builtin_ia32_palignr
+Warning: Failed to find information about possible built-in __builtin_ia32_pand
+Warning: Failed to find information about possible built-in __builtin_ia32_pand128
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn
+Warning: Failed to find information about possible built-in __builtin_ia32_pandn128
+Warning: Failed to find information about possible built-in __builtin_ia32_pause
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw
+Warning: Failed to find information about possible built-in __builtin_ia32_pavgw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pclmulqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpeqw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw
+Warning: Failed to find information about possible built-in __builtin_ia32_pcmpgtw128
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddd
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phaddw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubd
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_phsubw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaddwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub
+Warning: Failed to find information about possible built-in __builtin_ia32_pmaxub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pminsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub
+Warning: Failed to find information about possible built-in __builtin_ia32_pminub128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb
+Warning: Failed to find information about possible built-in __builtin_ia32_pmovmskb128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhrsw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhuw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmulhw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw
+Warning: Failed to find information about possible built-in __builtin_ia32_pmullw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq
+Warning: Failed to find information about possible built-in __builtin_ia32_pmuludq128
+Warning: Failed to find information about possible built-in __builtin_ia32_por
+Warning: Failed to find information about possible built-in __builtin_ia32_por128
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw
+Warning: Failed to find information about possible built-in __builtin_ia32_psadbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufb
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufd
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufhw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshuflw
+Warning: Failed to find information about possible built-in __builtin_ia32_pshufw
+Warning: Failed to find information about possible built-in __builtin_ia32_psignb
+Warning: Failed to find information about possible built-in __builtin_ia32_psignd
+Warning: Failed to find information about possible built-in __builtin_ia32_psignw
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld
+Warning: Failed to find information about possible built-in __builtin_ia32_pslld128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_pslldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq
+Warning: Failed to find information about possible built-in __builtin_ia32_psllq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw
+Warning: Failed to find information about possible built-in __builtin_ia32_psllw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psllwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad
+Warning: Failed to find information about possible built-in __builtin_ia32_psrad128
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi
+Warning: Failed to find information about possible built-in __builtin_ia32_psradi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw
+Warning: Failed to find information about possible built-in __builtin_ia32_psraw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrawi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld
+Warning: Failed to find information about possible built-in __builtin_ia32_psrld128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrldqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlqi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi
+Warning: Failed to find information about possible built-in __builtin_ia32_psrlwi128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd
+Warning: Failed to find information about possible built-in __builtin_ia32_psubd128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq
+Warning: Failed to find information about possible built-in __builtin_ia32_psubq128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubsw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusb128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubusw128
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw
+Warning: Failed to find information about possible built-in __builtin_ia32_psubw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckhwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklbw128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq
+Warning: Failed to find information about possible built-in __builtin_ia32_punpckldq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklqdq128
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd
+Warning: Failed to find information about possible built-in __builtin_ia32_punpcklwd128
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor
+Warning: Failed to find information about possible built-in __builtin_ia32_pxor128
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpps
+Warning: Failed to find information about possible built-in __builtin_ia32_rcpss
+Warning: Failed to find information about possible built-in __builtin_ia32_rdpmc
+Warning: Failed to find information about possible built-in __builtin_ia32_rdtsc
+Warning: Failed to find information about possible built-in __builtin_ia32_rdtscp
+Warning: Failed to find information about possible built-in __builtin_ia32_readeflags_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_rolhi
+Warning: Failed to find information about possible built-in __builtin_ia32_rolqi
+Warning: Failed to find information about possible built-in __builtin_ia32_rorhi
+Warning: Failed to find information about possible built-in __builtin_ia32_rorqi
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtf
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_rsqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_sbb_u32
+Warning: Failed to find information about possible built-in __builtin_ia32_sbb_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_sfence
+Warning: Failed to find information about possible built-in __builtin_ia32_shufpd
+Warning: Failed to find information about possible built-in __builtin_ia32_shufps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtpd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtps_nr
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtsd
+Warning: Failed to find information about possible built-in __builtin_ia32_sqrtss
+Warning: Failed to find information about possible built-in __builtin_ia32_stmxcsr
+Warning: Failed to find information about possible built-in __builtin_ia32_storedqu
+Warning: Failed to find information about possible built-in __builtin_ia32_storehps
+Warning: Failed to find information about possible built-in __builtin_ia32_storelps
+Warning: Failed to find information about possible built-in __builtin_ia32_storeupd
+Warning: Failed to find information about possible built-in __builtin_ia32_storeups
+Warning: Failed to find information about possible built-in __builtin_ia32_subpd
+Warning: Failed to find information about possible built-in __builtin_ia32_subps
+Warning: Failed to find information about possible built-in __builtin_ia32_subsd
+Warning: Failed to find information about possible built-in __builtin_ia32_subss
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomieq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomige
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomigt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomile
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomilt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomineq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdeq
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdge
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdgt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdle
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdlt
+Warning: Failed to find information about possible built-in __builtin_ia32_ucomisdneq
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpckhps
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklpd
+Warning: Failed to find information about possible built-in __builtin_ia32_unpcklps
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2df
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2di
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v2si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4sf
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v4si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_ext_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v2si
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_init_v8qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_pack_sfix
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v4hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vec_set_v8hi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineinvqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8affineqb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_vgf2p8mulb_v16qi
+Warning: Failed to find information about possible built-in __builtin_ia32_wbinvd
+Warning: Failed to find information about possible built-in __builtin_ia32_writeeflags_u64
+Warning: Failed to find information about possible built-in __builtin_ia32_xorpd
+Warning: Failed to find information about possible built-in __builtin_ia32_xorps
+Warning: Failed to find information about possible built-in __builtin_iceil
+Warning: Failed to find information about possible built-in __builtin_iceilf
+Warning: Failed to find information about possible built-in __builtin_iceill
+Warning: Failed to find information about possible built-in __builtin_ifloor
+Warning: Failed to find information about possible built-in __builtin_ifloorf
+Warning: Failed to find information about possible built-in __builtin_ifloorl
+Warning: Failed to find information about possible built-in __builtin_inf
+Warning: Failed to find information about possible built-in __builtin_infd128
+Warning: Failed to find information about possible built-in __builtin_infd32
+Warning: Failed to find information about possible built-in __builtin_infd64
+Warning: Failed to find information about possible built-in __builtin_inff
+Warning: Failed to find information about possible built-in __builtin_inff128
+Warning: Failed to find information about possible built-in __builtin_inff32
+Warning: Failed to find information about possible built-in __builtin_inff32x
+Warning: Failed to find information about possible built-in __builtin_inff64
+Warning: Failed to find information about possible built-in __builtin_inff64x
+Warning: Failed to find information about possible built-in __builtin_infl
+Warning: Failed to find information about possible built-in __builtin_infq
+Warning: Failed to find information about possible built-in __builtin_init_dwarf_reg_size_table
+Warning: Failed to find information about possible built-in __builtin_irint
+Warning: Failed to find information about possible built-in __builtin_irintf
+Warning: Failed to find information about possible built-in __builtin_irintl
+Warning: Failed to find information about possible built-in __builtin_iround
+Warning: Failed to find information about possible built-in __builtin_iroundf
+Warning: Failed to find information about possible built-in __builtin_iroundl
+Warning: Failed to find information about possible built-in __builtin_isfinite
+Warning: Failed to find information about possible built-in __builtin_isgreater
+Warning: Failed to find information about possible built-in __builtin_isgreaterequal
+Warning: Failed to find information about possible built-in __builtin_isinf_sign
+Warning: Failed to find information about possible built-in __builtin_isless
+Warning: Failed to find information about possible built-in __builtin_islessequal
+Warning: Failed to find information about possible built-in __builtin_islessgreater
+Warning: Failed to find information about possible built-in __builtin_isnormal
+Warning: Failed to find information about possible built-in __builtin_isunordered
+Warning: Failed to find information about possible built-in __builtin_lceil
+Warning: Failed to find information about possible built-in __builtin_lceilf
+Warning: Failed to find information about possible built-in __builtin_lceill
+Warning: Failed to find information about possible built-in __builtin_lfloor
+Warning: Failed to find information about possible built-in __builtin_lfloorf
+Warning: Failed to find information about possible built-in __builtin_lfloorl
+Warning: Failed to find information about possible built-in __builtin_llceil
+Warning: Failed to find information about possible built-in __builtin_llceilf
+Warning: Failed to find information about possible built-in __builtin_llceill
+Warning: Failed to find information about possible built-in __builtin_llfloor
+Warning: Failed to find information about possible built-in __builtin_llfloorf
+Warning: Failed to find information about possible built-in __builtin_llfloorl
+Warning: Failed to find information about possible built-in __builtin_longjmp
+Warning: Failed to find information about possible built-in __builtin_mul_overflow
+Warning: Failed to find information about possible built-in __builtin_mul_overflow_p
+Warning: Failed to find information about possible built-in __builtin_nand128
+Warning: Failed to find information about possible built-in __builtin_nand32
+Warning: Failed to find information about possible built-in __builtin_nand64
+Warning: Failed to find information about possible built-in __builtin_nans
+Warning: Failed to find information about possible built-in __builtin_nansf
+Warning: Failed to find information about possible built-in __builtin_nansf128
+Warning: Failed to find information about possible built-in __builtin_nansf32
+Warning: Failed to find information about possible built-in __builtin_nansf32x
+Warning: Failed to find information about possible built-in __builtin_nansf64
+Warning: Failed to find information about possible built-in __builtin_nansf64x
+Warning: Failed to find information about possible built-in __builtin_nansl
+Warning: Failed to find information about possible built-in __builtin_next_arg
+Warning: Failed to find information about possible built-in __builtin_object_size
+Warning: Failed to find information about possible built-in __builtin_parity
+Warning: Failed to find information about possible built-in __builtin_parityimax
+Warning: Failed to find information about possible built-in __builtin_parityl
+Warning: Failed to find information about possible built-in __builtin_parityll
+Warning: Failed to find information about possible built-in __builtin_popcount
+Warning: Failed to find information about possible built-in __builtin_popcountimax
+Warning: Failed to find information about possible built-in __builtin_popcountl
+Warning: Failed to find information about possible built-in __builtin_popcountll
+Warning: Failed to find information about possible built-in __builtin_powi
+Warning: Failed to find information about possible built-in __builtin_powif
+Warning: Failed to find information about possible built-in __builtin_powil
+Warning: Failed to find information about possible built-in __builtin_prefetch
+Warning: Failed to find information about possible built-in __builtin_return
+Warning: Failed to find information about possible built-in __builtin_return_address
+Warning: Failed to find information about possible built-in __builtin_sadd_overflow
+Warning: Failed to find information about possible built-in __builtin_saddl_overflow
+Warning: Failed to find information about possible built-in __builtin_saddll_overflow
+Warning: Failed to find information about possible built-in __builtin_saveregs
+Warning: Failed to find information about possible built-in __builtin_set_thread_pointer
+Warning: Failed to find information about possible built-in __builtin_setjmp
+Warning: Failed to find information about possible built-in __builtin_smul_overflow
+Warning: Failed to find information about possible built-in __builtin_smull_overflow
+Warning: Failed to find information about possible built-in __builtin_smulll_overflow
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_1
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_16
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_2
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_4
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_8
+Warning: Failed to find information about possible built-in __builtin_speculation_safe_value_ptr
+Warning: Failed to find information about possible built-in __builtin_ssub_overflow
+Warning: Failed to find information about possible built-in __builtin_ssubl_overflow
+Warning: Failed to find information about possible built-in __builtin_ssubll_overflow
+Warning: Failed to find information about possible built-in __builtin_sub_overflow
+Warning: Failed to find information about possible built-in __builtin_sub_overflow_p
+Warning: Failed to find information about possible built-in __builtin_sysv_va_copy
+Warning: Failed to find information about possible built-in __builtin_sysv_va_end
+Warning: Failed to find information about possible built-in __builtin_sysv_va_start
+Warning: Failed to find information about possible built-in __builtin_tgmath
+Warning: Failed to find information about possible built-in __builtin_thread_pointer
+Warning: Failed to find information about possible built-in __builtin_trap
+Warning: Failed to find information about possible built-in __builtin_uadd_overflow
+Warning: Failed to find information about possible built-in __builtin_uaddl_overflow
+Warning: Failed to find information about possible built-in __builtin_uaddll_overflow
+Warning: Failed to find information about possible built-in __builtin_umul_overflow
+Warning: Failed to find information about possible built-in __builtin_umull_overflow
+Warning: Failed to find information about possible built-in __builtin_umulll_overflow
+Warning: Failed to find information about possible built-in __builtin_unreachable
+Warning: Failed to find information about possible built-in __builtin_unwind_init
+Warning: Failed to find information about possible built-in __builtin_update_setjmp_buf
+Warning: Failed to find information about possible built-in __builtin_usub_overflow
+Warning: Failed to find information about possible built-in __builtin_usubl_overflow
+Warning: Failed to find information about possible built-in __builtin_usubll_overflow
+Warning: Failed to find information about possible built-in __builtin_va_arg_pack
+Warning: Failed to find information about possible built-in __builtin_va_arg_pack_len
+Warning: Failed to find information about possible built-in __clear_cache
+Warning: Failed to find information about possible built-in __cyg_profile_func_enter
+Warning: Failed to find information about possible built-in __cyg_profile_func_exit
+Warning: Failed to find information about possible built-in __divmodti4
+Warning: Failed to find information about possible built-in __fprintf_chk
+Warning: Failed to find information about possible built-in __has_attribute
+Warning: Failed to find information about possible built-in __has_cpp_attribute
+Warning: Failed to find information about possible built-in __memcpy_chk
+Warning: Failed to find information about possible built-in __memmove_chk
+Warning: Failed to find information about possible built-in __mempcpy_chk
+Warning: Failed to find information about possible built-in __memset_chk
+Warning: Failed to find information about possible built-in __printf_chk
+Warning: Failed to find information about possible built-in __seg_fs
+Warning: Failed to find information about possible built-in __seg_gs
+Warning: Failed to find information about possible built-in __snprintf_chk
+Warning: Failed to find information about possible built-in __sprintf_chk
+Warning: Failed to find information about possible built-in __stpcpy_chk
+Warning: Failed to find information about possible built-in __stpncpy_chk
+Warning: Failed to find information about possible built-in __strcat_chk
+Warning: Failed to find information about possible built-in __strcpy_chk
+Warning: Failed to find information about possible built-in __strncat_chk
+Warning: Failed to find information about possible built-in __strncpy_chk
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_1
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_16
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_2
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_4
+Warning: Failed to find information about possible built-in __sync_fetch_and_nand_8
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_1
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_16
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_2
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_4
+Warning: Failed to find information about possible built-in __sync_nand_and_fetch_8
+Warning: Failed to find information about possible built-in __sync_synchronize
+Warning: Failed to find information about possible built-in __udivmodti4
+Warning: Failed to find information about possible built-in __vfprintf_chk
+Warning: Failed to find information about possible built-in __vprintf_chk
+Warning: Failed to find information about possible built-in __vsnprintf_chk
+Warning: Failed to find information about possible built-in __vsprintf_chk
+Warning: Failed to find information about possible built-in _exit
+Warning: Failed to find information about possible built-in _pjc
+Warning: Ignored 634 possible built-ins
+Warning: Throwing away all 736 builtins because of 71 bad parses.
+[T 12:37:43 12322] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:43 12322] ==== Candidate to intercept: /usr/bin/x86_64-linux-gnu-gcc-9 (canonical: /usr/bin/x86_64-linux-gnu-gcc-9) ====
+[T 12:37:43 12322] === Intercepted call to /usr/bin/x86_64-linux-gnu-gcc-9 === 
+[T 12:37:43 12324] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:43 12324] ==== Candidate to intercept: /usr/lib/gcc/x86_64-linux-gnu/9/cc1 (canonical: /usr/lib/gcc/x86_64-linux-gnu/9/cc1) ====
+[T 12:37:43 12324] === Intercepted call to /usr/lib/gcc/x86_64-linux-gnu/9/cc1 === 
+[T 12:37:43 12326] Attempting to switch stdout/stderr to 5...
+[T 12:37:43 12326] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:43 12326] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:43 12326] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:43 12326] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -imultiarch x86_64-linux-gnu /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_10_12271_10653.c -quiet -dumpbase semmle_10_12271_10653.c -mtune=generic -march=x86-64 -auxbase-strip /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_11_12271_10669.o -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSsDBNY.s
+[E 12:37:43 12326] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:43 12324] Extractor terminated with exit code 0.
+[T 12:37:43 12327] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[T 12:37:43 12327] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:43 12327] Will try to resolve as in path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2020b/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Bujji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bujji/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Bujji/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin.
+[T 12:37:43 12327]  -> path lookup for as as /usr/local/sbin/as...
+[T 12:37:43 12327]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:43 12327]  -> path lookup for as as /usr/sbin/as...
+[T 12:37:43 12327]  -> path lookup for as as /usr/bin/as...
+[T 12:37:43 12327] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/x86_64-linux-gnu-as) ====
+[T 12:37:43 12327] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:43 12328] Attempting to switch stdout/stderr to 5...
+[T 12:37:43 12328] Reading configuration file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tracing/compiler-tracing17925947205591983047.spec...
+[E 12:37:43 12328] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:43 12328] Current directory: /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test
+[E 12:37:43 12328] Command: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --mimic /usr/bin/x86_64-linux-gnu-gcc-9 -x c -o /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_11_12271_10669.o -c /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/tmp//semmle_10_12271_10653.c
+[E 12:37:43 12328] Within classification loop; exiting.
+[T 12:37:43 12322] Extractor terminated with exit code 0.
+[E 12:37:43 12271] Processed command line: /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/extractor --trapfolder /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp --src_archive /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src --mimic_config /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/compiler_mimic_cache/d8227e65fa59 --executable_filename /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/a.out -w --error_limit 1000 --disable_system_macros --variadic_macros --gcc --gnu_version 90300 --target linux_x86_64 -D__SSP_STRONG__=3 '-D__DBL_MIN_EXP__=(-1021)' -D__FLT32X_MAX_EXP__=1024 -D__UINT_LEAST16_MAX__=0xffff -D__ATOMIC_ACQUIRE=2 -D__FLT128_MAX_10_EXP__=4932 -D__FLT_MIN__=1.17549435082228750796873653722224568e-38F -D__GCC_IEC_559_COMPLEX=2 '-D__UINT_LEAST8_TYPE__=unsigned char' -D__SIZEOF_FLOAT80__=16 '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=0xff -D__WINT_MAX__=0xffffffffU '-D__FLT32_MIN_EXP__=(-125)' -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=0xffffffffffffffffUL -D__WCHAR_MAX__=0x7fffffff -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=((double)4.94065645841246544176568792868221372e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__GCC_IEC_559=2 -D__FLT32X_DECIMAL_DIG__=17 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__FLT64_DECIMAL_DIG__=17 -D__CET__=3 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=0xffffffffffffffffUL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__FLT32_HAS_DENORM__=1 -D__UINT_FAST8_MAX__=0xff '-D__has_include(STR)=__has_include__(STR)' -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__INT_LEAST8_WIDTH__=8 -D__UINT_LEAST64_MAX__=0xffffffffffffffffUL -D__SHRT_MAX__=0x7fff '-D__LDBL_MAX__=1.18973149535723176502126385303097021e+4932L' -D__FLT64X_MAX_10_EXP__=4932 -D__UINT_LEAST8_MAX__=0xff -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 -D__FLT128_DENORM_MIN__=6.47517511943802511092443895822764655e-4966F128 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__FLT_EVAL_METHOD_TS_18661_3__=0 -D__unix=1 -D__UINT32_MAX__=0xffffffffU -D__LDBL_MAX_EXP__=16384 '-D__FLT128_MIN_EXP__=(-16381)' -D__WINT_MIN__=0U -D__linux__=1 '-D__FLT128_MIN_10_EXP__=(-4931)' -D__INT_LEAST16_WIDTH__=16 -D__SCHAR_MAX__=0x7f -D__FLT128_MANT_DIG__=113 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__FLT64X_MANT_DIG__=64 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__USER_LABEL_PREFIX__= -D__FLT64X_EPSILON__=1.08420217248550443400745280086994171e-19F64x -D__LDBL_HAS_INFINITY__=1 -D__FLT32_DIG__=6 -D__FLT_EPSILON__=1.19209289550781250000000000000000000e-7F -D__SHRT_WIDTH__=16 -D__LDBL_MIN__=3.36210314311209350626267781732175260e-4932L -D__STDC_UTF_16__=1 -D__DEC32_MAX__=9.999999E96DF -D__FLT64X_DENORM_MIN__=3.64519953188247460252840593361941982e-4951F64x -D__FLT32X_HAS_INFINITY__=1 -D__INT32_MAX__=0x7fffffff -D__INT_WIDTH__=32 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201706L '-D__UINT16_C(c)=c' -D__PTRDIFF_WIDTH__=64 -D__DECIMAL_DIG__=21 -D__FLT64_EPSILON__=2.22044604925031308084726333618164062e-16F64 -D__gnu_linux__=1 -D__INTMAX_WIDTH__=64 '-D__has_include_next(STR)=__has_include_next__(STR)' '-D__FLT64X_MIN_10_EXP__=(-4931)' -D__LDBL_HAS_QUIET_NAN__=1 -D__FLT64_MANT_DIG__=53 -D__pie__=2 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 -D__FLT64_MAX_10_EXP__=308 '-D__DBL_MAX__=((double)1.79769313486231570814527423731704357e+308L)' -D__INT_FAST32_MAX__=0x7fffffffffffffffL -D__DBL_HAS_INFINITY__=1 -D__HAVE_SPECULATION_SAFE_VALUE=1 '-D__DEC32_MIN_EXP__=(-94)' -D__INTPTR_WIDTH__=64 -D__FLT32X_HAS_DENORM__=1 '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__FLT128_HAS_INFINITY__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=0x7fffffff -D__DEC32_MIN__=1E-95DF -D__DBL_MAX_EXP__=1024 -D__WCHAR_WIDTH__=32 '-D__FLT32_MAX__=3.40282346638528859811704183484516925e+38F32' -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=0x7fffffffffffffffL -D__amd64=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__FLT32_HAS_QUIET_NAN__=1 -D__LONG_LONG_MAX__=0x7fffffffffffffffLL -D__SIZEOF_SIZE_T__=8 '-D__FLT64X_MIN_EXP__=(-16381)' -D__SIZEOF_WINT_T__=4 -D__LONG_LONG_WIDTH__=64 -D__FLT32_MAX_EXP__=128 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1013 '-D__FLT_MIN_EXP__=(-125)' -D__FLT64X_HAS_QUIET_NAN__=1 '-D__INT_FAST64_TYPE__=long int' -D__FLT64_DENORM_MIN__=4.94065645841246544176568792868221372e-324F64 '-D__DBL_MIN__=((double)2.22507385850720138309023271733240406e-308L)' -D__PIE__=2 -D__LP64__=1 -D__FLT32X_EPSILON__=2.22044604925031308084726333618164062e-16F32x -D__DECIMAL_BID_FORMAT__=1 '-D__FLT64_MIN_EXP__=(-1021)' '-D__FLT64_MIN_10_EXP__=(-307)' -D__FLT64X_DECIMAL_DIG__=21 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=0xffff -D__DBL_HAS_DENORM__=1 -D__FLT32_MIN__=1.17549435082228750796873653722224568e-38F32 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 -D__LDBL_DECIMAL_DIG__=21 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLT128_MAX_EXP__=16384 -D__FLT32_MANT_DIG__=24 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 -D__FLT128_HAS_DENORM__=1 -D__FLT128_DIG__=33 -D__SCHAR_WIDTH__=8 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' -D__FLT32_MAX_10_EXP__=38 '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -D__FLT64X_HAS_INFINITY__=1 -Dunix=1 -D__INT16_MAX__=0x7fff '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=0xffffffffffffffffUL -D__FLT64X_DIG__=18 '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__GCC_ASM_FLAG_OUTPUTS__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443400745280086994171e-19L '-D__UINTMAX_C(c)=c ## UL' -D__SSE_MATH__=1 -D__k8=1 -D__SIG_ATOMIC_MAX__=0x7fffffff -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__FLT32X_MANT_DIG__=53 -D__x86_64__=1 '-D__FLT32X_MIN_EXP__=(-1021)' -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=0x7fffffffffffffffL -D__FLT64_DIG__=15 -D__UINT_FAST32_MAX__=0xffffffffffffffffUL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=0x7fffffffffffffffL -D__FLT64X_HAS_DENORM__=1 -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__INT_FAST32_WIDTH__=64 -D__PRAGMA_REDEFINE_EXTNAME=1 -D__SIZE_WIDTH__=64 -D__SEG_FS=1 -D__INT_LEAST16_MAX__=0x7fff -D__DEC64_MANT_DIG__=16 -D__INT64_MAX__=0x7fffffffffffffffL -D__UINT_LEAST32_MAX__=0xffffffffU -D__SEG_GS=1 -D__FLT32_DENORM_MIN__=1.40129846432481707092372958328991613e-45F32 -D__GCC_ATOMIC_LONG_LOCK_FREE=2 -D__SIG_ATOMIC_WIDTH__=32 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=0x7f '-D__FLT128_MAX__=1.18973149535723176508575932662800702e+4932F128' -D__INTPTR_MAX__=0x7fffffffffffffffL -Dlinux=1 -D__FLT64_HAS_QUIET_NAN__=1 '-D__FLT32_MIN_10_EXP__=(-37)' -D__SSE2__=1 -D__FLT32X_DIG__=15 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 -D__FLT64_HAS_INFINITY__=1 '-D__FLT64X_MAX__=1.18973149535723176502126385303097021e+4932F64x' '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__pic__=2 -D__UINTPTR_MAX__=0xffffffffffffffffUL -D__INT_FAST64_WIDTH__=64 '-D__DEC64_MIN_EXP__=(-382)' -D__FLT32_DECIMAL_DIG__=9 -D__INT_FAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 -D__FLT32_HAS_INFINITY__=1 -D__FLT64X_MAX_EXP__=16384 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=0x7fffffff -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__SIZEOF_FLOAT128__=16 -D__INT_LEAST64_MAX__=0x7fffffffffffffffL -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' '-D__FLT64_MAX__=1.79769313486231570814527423731704357e+308F64' -D__WINT_WIDTH__=32 -D__INT_LEAST8_MAX__=0x7f -D__FLT32X_MAX_10_EXP__=308 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=((double)2.22044604925031308084726333618164062e-16L)' -D__FLT128_MIN__=3.36210314311209350626267781732175260e-4932F128 -D_LP64=1 '-D__UINT8_C(c)=c' -D__FLT64_MAX_EXP__=1024 -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' -D__FLT128_HAS_QUIET_NAN__=1 '-D__INT_FAST8_TYPE__=signed char' -D__FLT64X_MIN__=3.36210314311209350626267781732175260e-4932F64x -D__FLT64_HAS_DENORM__=1 -D__FLT32_EPSILON__=1.19209289550781250000000000000000000e-7F32 -D__DBL_DECIMAL_DIG__=17 -D__STDC_UTF_32__=1 -D__INT_FAST8_WIDTH__=8 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__FLT32X_MAX__=1.79769313486231570814527423731704357e+308F32x' '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=0x7fffffffffffffffL -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092372958328991613e-45F -D__INT8_MAX__=0x7f -D__LONG_WIDTH__=64 -D__PIC__=2 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859811704183484516925e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__FLT_MIN_10_EXP__=(-37)' -D__FLT64_MIN__=2.22507385850720138309023271733240406e-308F64 -D__INT_LEAST32_WIDTH__=32 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__FLT32X_HAS_QUIET_NAN__=1 -D__ATOMIC_CONSUME=1 -D__INT_FAST16_WIDTH__=64 -D__UINTMAX_MAX__=0xffffffffffffffffUL -D__DEC32_MANT_DIG__=7 -D__FLT32X_DENORM_MIN__=4.94065645841246544176568792868221372e-324F32x -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460252840593361941982e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__FLT32X_MIN_10_EXP__=(-307)' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__FLT128_EPSILON__=1.92592994438723585305597794258492732e-34F128 -D__SIZEOF_LONG_LONG__=8 -D__FLT128_DECIMAL_DIG__=36 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__FLT32X_MIN__=2.22507385850720138309023271733240406e-308F32x -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=0xffffffffffffffffUL -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 -D__INT_LEAST64_WIDTH__=64 '-D__UINT_FAST8_TYPE__=unsigned char' -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -- fopen_test.c
+[E 12:37:43 12271] Starting compilation TRAP /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp/compilations/22/53056267_0.trap.br
+[E 12:37:43 12271] Creating trap tarball /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp/tarballs/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/fopen_test.c.df9ef991_0.trap.tar.br
+[E 12:37:43 12271] Emitting trap files for fopen_test.c
+[E 12:37:43 12271] Opening existencedb in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/working/existencedb/db
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/stdc-predef.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/wordsize.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/long-double.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/sys/cdefs.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/gnu/stubs.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/features.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/timesize.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/typesizes.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/time64.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/FILE.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/stdio.h
+[E 12:37:43 12271] Already archived /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+[E 12:37:43 12271] Already archived /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/waitflags.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/waitstatus.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/floatn-common.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/floatn.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/time_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+[E 12:37:43 12271] Already archived /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/endianness.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/endian.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/byteswap.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/endian.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/select.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/sys/select.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/struct_mutex.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/sys/types.h
+[E 12:37:43 12271] Already archived /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/alloca.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/usr/include/stdlib.h
+[E 12:37:43 12271] Archiving /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/src/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/fopen_test.c
+[E 12:37:43 12271] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:43 12271] Wrote 58 files to /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp/tarballs/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/fopen_test.c.df9ef991_0.trap.tar.br
+[E 12:37:43 12271] Finished compilation TRAP /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp/compilations/22/53056267_0.trap.br
+[T 12:37:43 12252] Extractor terminated with exit code 0.

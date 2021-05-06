@@ -1,0 +1,56 @@
+[2021-04-26 12:38:24] This is codeql execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql
+[2021-04-26 12:38:24] Creating executor with 1 threads.
+[2021-04-26 12:38:24] Calling plumbing command: codeql resolve library-path --query=/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql --format=json
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Resolving query at normalized path /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Found no enclosing pack; trying after symlink resolution with /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Found enclosing pack 'fopen_test' at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Adding compilation cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/.cache.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Resolving library dependencies from /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> QL pack dependencies for /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test resolved OK.
+[2021-04-26 12:38:24] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2021-04-26 12:38:24] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test"
+                        ],
+                        "compilationCache" : [
+                          "/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/.cache"
+                        ],
+                        "relativeName" : "fopen_test/data_flow.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test or an enclosing directory.",
+                        "qlPackName" : "fopen_test"
+                      }
+[2021-04-26 12:38:24] [PROGRESS] execute queries> Compiling query plan for /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] [DETAILS] execute queries> Resolving imports for /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] Resolved file set for /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql hashes to 479a3697ecd9025b148bb859af3542267abe8693.
+[2021-04-26 12:38:24] [DETAILS] execute queries> Checking QL for /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql.
+[2021-04-26 12:38:24] ExternalModuleBindingPass ...
+[2021-04-26 12:38:24] ExternalModuleBindingPass time: 00:00.001
+[2021-04-26 12:38:24] QLPredicateSynthesiser ...
+[2021-04-26 12:38:24] QLPredicateSynthesiser time: 00:00.000
+[2021-04-26 12:38:24] DeclarationBindingPass ...
+[2021-04-26 12:38:25] DeclarationBindingPass time: 00:00.002
+[2021-04-26 12:38:25] Fixed point time ...
+[2021-04-26 12:38:25] Fixed point time time: 00:00.003
+[2021-04-26 12:38:25] ReferenceBindingPass ...
+[2021-04-26 12:38:25] ReferenceBindingPass time: 00:00.000
+[2021-04-26 12:38:25] EntityTypeUpdateBindingPass ...
+[2021-04-26 12:38:25] EntityTypeUpdateBindingPass time: 00:00.000
+[2021-04-26 12:38:25] ReferenceBindingCheck ...
+[2021-04-26 12:38:25] ReferenceBindingCheck time: 00:00.001
+[2021-04-26 12:38:25] PredicateBodyBindingPass ...
+[2021-04-26 12:38:25] PredicateBodyBindingPass time: 00:00.001
+[2021-04-26 12:38:25] LanguagePragmaPropagationPass ...
+[2021-04-26 12:38:25] LanguagePragmaPropagationPass time: 00:00.000
+[2021-04-26 12:38:25] Ambiguity checks ...
+[2021-04-26 12:38:25] Ambiguity checks time: 00:00.002
+[2021-04-26 12:38:25] Ql checks ...
+[2021-04-26 12:38:25] Ql checks time: 00:00.034
+[2021-04-26 12:38:25] [ERROR] execute queries> ERROR: Could not resolve module cpp. There should probably be a qlpack.yml file declaring dependencies in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test or an enclosing directory. (/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql:1,8-11)
+[2021-04-26 12:38:25] [ERROR] execute queries> ERROR: Could not resolve type Function (/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql:3,6-14)
+[2021-04-26 12:38:25] [ERROR] execute queries> ERROR: Could not resolve type FunctionCall (/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow.ql:3,22-34)
+[2021-04-26 12:38:25] Sequence stamp origin is -6598379282778792940
+[2021-04-26 12:38:25] Stopped the world to close the cache at sequence stamp o+0
+[2021-04-26 12:38:25] The disk cache is freshly trimmed; leave it be.
+[2021-04-26 12:38:25] Starting the world again
+[2021-04-26 12:38:25] Exiting with code 2

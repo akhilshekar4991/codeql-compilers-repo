@@ -1,0 +1,273 @@
+[2021-04-26 12:37:42] This is codeql database create codeql_db --language=cpp --command=gcc fopen_test.c
+[2021-04-26 12:37:42] Log file was started late.
+[2021-04-26 12:37:42] [PROGRESS] database create> Running command [gcc, fopen_test.c] in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test.
+[2021-04-26 12:37:42] Running plumbing command: codeql database trace-command --working-dir=/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db gcc fopen_test.c
+[2021-04-26 12:37:42] [PROGRESS] database trace-command> /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db: Running in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test: [gcc, fopen_test.c]
+[2021-04-26 12:37:42] Setting up tracing from specification at /home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/tools/linux64/compiler-tracing.spec.
+[2021-04-26 12:37:43] Plumbing command codeql database trace-command completed.
+[2021-04-26 12:37:43] [PROGRESS] database create> Finalizing database at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db.
+[2021-04-26 12:37:43] Running plumbing command: codeql database finalize --mode=normal -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db
+[2021-04-26 12:37:43] [PROGRESS] database finalize> Running TRAP import for CodeQL database at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db...
+[2021-04-26 12:37:43] Running plumbing command: codeql dataset import --dbscheme=/home/akhil/compilers/codeql-compilers-repo/codeql-home/codeql/cpp/semmlecode.cpp.dbscheme -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp
+[2021-04-26 12:37:43] Clearing disk cache since the version file /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp/default/cache/version does not exist
+[2021-04-26 12:37:43] Tuple pool not found. Clearing relations with cached strings
+[2021-04-26 12:37:43] Trimming disk cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp/default/cache in mode brutal.
+[2021-04-26 12:37:43] Sequence stamp origin is -6598379460156260750
+[2021-04-26 12:37:43] Stopped the world to hard-clear memory at sequence stamp o+0
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] Stopped the world to quickly trim disk at sequence stamp o+1
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] Stopped the world to zealously trim disk at sequence stamp o+2
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] Trimming completed (6ms): Purged everything.
+[2021-04-26 12:37:43] Scanning for files in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/trap/cpp
+[2021-04-26 12:37:43] Grouping TRAPs by link target
+[2021-04-26 12:37:43] Scanning cpp_predefined.acb19af8.trap (fopen_test.c.df9ef991_0.trap.tar.br) (1 of 61)
+[2021-04-26 12:37:43] Scanning stdc-predef.h.3efb7735.trap (fopen_test.c.df9ef991_0.trap.tar.br) (2 of 61)
+[2021-04-26 12:37:43] Scanning wordsize.h.0a5d81b3.trap (fopen_test.c.df9ef991_0.trap.tar.br) (3 of 61)
+[2021-04-26 12:37:43] Scanning long-double.h.c86d65af.trap (fopen_test.c.df9ef991_0.trap.tar.br) (4 of 61)
+[2021-04-26 12:37:43] Scanning cdefs.h.002f55cf.trap (fopen_test.c.df9ef991_0.trap.tar.br) (5 of 61)
+[2021-04-26 12:37:43] Scanning stubs-64.h.3efb7735.trap (fopen_test.c.df9ef991_0.trap.tar.br) (6 of 61)
+[2021-04-26 12:37:43] Scanning stubs.h.d28181f8.trap (fopen_test.c.df9ef991_0.trap.tar.br) (7 of 61)
+[2021-04-26 12:37:43] Scanning features.h.586281a3.trap (fopen_test.c.df9ef991_0.trap.tar.br) (8 of 61)
+[2021-04-26 12:37:43] Scanning libc-header-start.h.ef0262b5.trap (fopen_test.c.df9ef991_0.trap.tar.br) (9 of 61)
+[2021-04-26 12:37:43] Scanning stddef.h.70326e3e.trap (fopen_test.c.df9ef991_0.trap.tar.br) (10 of 61)
+[2021-04-26 12:37:43] Scanning stdarg.h.d060dbdc.trap (fopen_test.c.df9ef991_0.trap.tar.br) (11 of 61)
+[2021-04-26 12:37:43] Scanning timesize.h.4bc5b25a.trap (fopen_test.c.df9ef991_0.trap.tar.br) (12 of 61)
+[2021-04-26 12:37:43] Scanning typesizes.h.710fd7d4.trap (fopen_test.c.df9ef991_0.trap.tar.br) (13 of 61)
+[2021-04-26 12:37:43] Scanning time64.h.44fad59b.trap (fopen_test.c.df9ef991_0.trap.tar.br) (14 of 61)
+[2021-04-26 12:37:43] Scanning types.h.1590e287.trap (fopen_test.c.df9ef991_0.trap.tar.br) (15 of 61)
+[2021-04-26 12:37:43] Scanning __mbstate_t.h.ce8652d1.trap (fopen_test.c.df9ef991_0.trap.tar.br) (16 of 61)
+[2021-04-26 12:37:43] Scanning __fpos_t.h.cb3e0523.trap (fopen_test.c.df9ef991_0.trap.tar.br) (17 of 61)
+[2021-04-26 12:37:43] Scanning __fpos64_t.h.c87d7bdd.trap (fopen_test.c.df9ef991_0.trap.tar.br) (18 of 61)
+[2021-04-26 12:37:43] Scanning __FILE.h.916d4b36.trap (fopen_test.c.df9ef991_0.trap.tar.br) (19 of 61)
+[2021-04-26 12:37:43] Scanning FILE.h.ab31225d.trap (fopen_test.c.df9ef991_0.trap.tar.br) (20 of 61)
+[2021-04-26 12:37:43] Scanning struct_FILE.h.3b259277.trap (fopen_test.c.df9ef991_0.trap.tar.br) (21 of 61)
+[2021-04-26 12:37:43] Scanning stdio_lim.h.956cae89.trap (fopen_test.c.df9ef991_0.trap.tar.br) (22 of 61)
+[2021-04-26 12:37:43] Scanning sys_errlist.h.760eb801.trap (fopen_test.c.df9ef991_0.trap.tar.br) (23 of 61)
+[2021-04-26 12:37:43] Scanning stdio.h.e1eb3805.trap (fopen_test.c.df9ef991_0.trap.tar.br) (24 of 61)
+[2021-04-26 12:37:43] Scanning libc-header-start.h.a9d3e18b.trap (fopen_test.c.df9ef991_0.trap.tar.br) (25 of 61)
+[2021-04-26 12:37:43] Scanning stddef.h.5369916b.trap (fopen_test.c.df9ef991_0.trap.tar.br) (26 of 61)
+[2021-04-26 12:37:43] Scanning waitflags.h.82d366d7.trap (fopen_test.c.df9ef991_0.trap.tar.br) (27 of 61)
+[2021-04-26 12:37:43] Scanning waitstatus.h.e87d3a54.trap (fopen_test.c.df9ef991_0.trap.tar.br) (28 of 61)
+[2021-04-26 12:37:43] Scanning floatn-common.h.2f968472.trap (fopen_test.c.df9ef991_0.trap.tar.br) (29 of 61)
+[2021-04-26 12:37:43] Scanning floatn.h.accca6eb.trap (fopen_test.c.df9ef991_0.trap.tar.br) (30 of 61)
+[2021-04-26 12:37:43] Scanning clock_t.h.d57b4bd7.trap (fopen_test.c.df9ef991_0.trap.tar.br) (31 of 61)
+[2021-04-26 12:37:43] Scanning clockid_t.h.4f4e2e61.trap (fopen_test.c.df9ef991_0.trap.tar.br) (32 of 61)
+[2021-04-26 12:37:43] Scanning time_t.h.622de3ae.trap (fopen_test.c.df9ef991_0.trap.tar.br) (33 of 61)
+[2021-04-26 12:37:43] Scanning timer_t.h.39506049.trap (fopen_test.c.df9ef991_0.trap.tar.br) (34 of 61)
+[2021-04-26 12:37:43] Scanning stddef.h.a7d3cc91.trap (fopen_test.c.df9ef991_0.trap.tar.br) (35 of 61)
+[2021-04-26 12:37:43] Scanning stdint-intn.h.3a2bc0a5.trap (fopen_test.c.df9ef991_0.trap.tar.br) (36 of 61)
+[2021-04-26 12:37:43] Scanning endianness.h.91b0a2c0.trap (fopen_test.c.df9ef991_0.trap.tar.br) (37 of 61)
+[2021-04-26 12:37:43] Scanning endian.h.197889e3.trap (fopen_test.c.df9ef991_0.trap.tar.br) (38 of 61)
+[2021-04-26 12:37:43] Scanning byteswap.h.3b72e92c.trap (fopen_test.c.df9ef991_0.trap.tar.br) (39 of 61)
+[2021-04-26 12:37:43] Scanning uintn-identity.h.faa9faab.trap (fopen_test.c.df9ef991_0.trap.tar.br) (40 of 61)
+[2021-04-26 12:37:43] Scanning endian.h.ae417b55.trap (fopen_test.c.df9ef991_0.trap.tar.br) (41 of 61)
+[2021-04-26 12:37:43] Scanning select.h.93fa2df4.trap (fopen_test.c.df9ef991_0.trap.tar.br) (42 of 61)
+[2021-04-26 12:37:43] Scanning __sigset_t.h.58b82540.trap (fopen_test.c.df9ef991_0.trap.tar.br) (43 of 61)
+[2021-04-26 12:37:43] Scanning sigset_t.h.f286b014.trap (fopen_test.c.df9ef991_0.trap.tar.br) (44 of 61)
+[2021-04-26 12:37:43] Scanning struct_timeval.h.9ca227e3.trap (fopen_test.c.df9ef991_0.trap.tar.br) (45 of 61)
+[2021-04-26 12:37:43] Scanning struct_timespec.h.07032d39.trap (fopen_test.c.df9ef991_0.trap.tar.br) (46 of 61)
+[2021-04-26 12:37:43] Scanning select.h.5d5ddb85.trap (fopen_test.c.df9ef991_0.trap.tar.br) (47 of 61)
+[2021-04-26 12:37:43] Scanning pthreadtypes-arch.h.47e558dd.trap (fopen_test.c.df9ef991_0.trap.tar.br) (48 of 61)
+[2021-04-26 12:37:43] Scanning struct_mutex.h.bdae4b9a.trap (fopen_test.c.df9ef991_0.trap.tar.br) (49 of 61)
+[2021-04-26 12:37:43] Scanning struct_rwlock.h.5550c404.trap (fopen_test.c.df9ef991_0.trap.tar.br) (50 of 61)
+[2021-04-26 12:37:43] Scanning thread-shared-types.h.b8e19b46.trap (fopen_test.c.df9ef991_0.trap.tar.br) (51 of 61)
+[2021-04-26 12:37:43] Scanning pthreadtypes.h.a2eb9027.trap (fopen_test.c.df9ef991_0.trap.tar.br) (52 of 61)
+[2021-04-26 12:37:43] Scanning types.h.70041e49.trap (fopen_test.c.df9ef991_0.trap.tar.br) (53 of 61)
+[2021-04-26 12:37:43] Scanning stddef.h.9f249d30.trap (fopen_test.c.df9ef991_0.trap.tar.br) (54 of 61)
+[2021-04-26 12:37:43] Scanning alloca.h.861247e4.trap (fopen_test.c.df9ef991_0.trap.tar.br) (55 of 61)
+[2021-04-26 12:37:43] Scanning stdlib-float.h.392ae7f4.trap (fopen_test.c.df9ef991_0.trap.tar.br) (56 of 61)
+[2021-04-26 12:37:43] Scanning stdlib.h.c93f34e5.trap (fopen_test.c.df9ef991_0.trap.tar.br) (57 of 61)
+[2021-04-26 12:37:43] Scanning fopen_test.c.df9ef991.trap (fopen_test.c.df9ef991_0.trap.tar.br) (58 of 61)
+[2021-04-26 12:37:43] Scanning 53056267_0.trap.br (59 of 61)
+[2021-04-26 12:37:43] Scanning a.out.trap.br (60 of 61)
+[2021-04-26 12:37:43] Scanning sourceLocationPrefix.trap.gz (61 of 61)
+[2021-04-26 12:37:43] Assembling a.out.link with 59 files (1 of 2)
+[2021-04-26 12:37:43] Assembling no link target with 2 files (2 of 2)
+[2021-04-26 12:37:43] Importing cpp_predefined.acb19af8.trap (fopen_test.c.df9ef991_0.trap.tar.br) for no link target (1 of 61)
+[2021-04-26 12:37:43] Importing stdc-predef.h.3efb7735.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (2 of 61)
+[2021-04-26 12:37:43] Importing wordsize.h.0a5d81b3.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (3 of 61)
+[2021-04-26 12:37:43] Importing long-double.h.c86d65af.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (4 of 61)
+[2021-04-26 12:37:43] Importing cdefs.h.002f55cf.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (5 of 61)
+[2021-04-26 12:37:43] Importing stubs-64.h.3efb7735.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (6 of 61)
+[2021-04-26 12:37:43] Importing stubs.h.d28181f8.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (7 of 61)
+[2021-04-26 12:37:43] Importing features.h.586281a3.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (8 of 61)
+[2021-04-26 12:37:43] Importing libc-header-start.h.ef0262b5.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (9 of 61)
+[2021-04-26 12:37:43] Importing stddef.h.70326e3e.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (10 of 61)
+[2021-04-26 12:37:43] Importing stdarg.h.d060dbdc.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (11 of 61)
+[2021-04-26 12:37:43] Importing timesize.h.4bc5b25a.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (12 of 61)
+[2021-04-26 12:37:43] Importing typesizes.h.710fd7d4.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (13 of 61)
+[2021-04-26 12:37:43] Importing time64.h.44fad59b.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (14 of 61)
+[2021-04-26 12:37:43] Importing types.h.1590e287.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (15 of 61)
+[2021-04-26 12:37:43] Importing __mbstate_t.h.ce8652d1.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (16 of 61)
+[2021-04-26 12:37:43] Importing __fpos_t.h.cb3e0523.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (17 of 61)
+[2021-04-26 12:37:43] Importing __fpos64_t.h.c87d7bdd.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (18 of 61)
+[2021-04-26 12:37:43] Importing __FILE.h.916d4b36.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (19 of 61)
+[2021-04-26 12:37:43] Importing FILE.h.ab31225d.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (20 of 61)
+[2021-04-26 12:37:43] Importing struct_FILE.h.3b259277.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (21 of 61)
+[2021-04-26 12:37:43] Importing stdio_lim.h.956cae89.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (22 of 61)
+[2021-04-26 12:37:43] Importing sys_errlist.h.760eb801.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (23 of 61)
+[2021-04-26 12:37:43] Importing stdio.h.e1eb3805.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (24 of 61)
+[2021-04-26 12:37:43] Importing libc-header-start.h.a9d3e18b.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (25 of 61)
+[2021-04-26 12:37:43] Importing stddef.h.5369916b.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (26 of 61)
+[2021-04-26 12:37:43] Importing waitflags.h.82d366d7.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (27 of 61)
+[2021-04-26 12:37:43] Importing waitstatus.h.e87d3a54.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (28 of 61)
+[2021-04-26 12:37:43] Importing floatn-common.h.2f968472.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (29 of 61)
+[2021-04-26 12:37:43] Importing floatn.h.accca6eb.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (30 of 61)
+[2021-04-26 12:37:43] Importing clock_t.h.d57b4bd7.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (31 of 61)
+[2021-04-26 12:37:43] Importing clockid_t.h.4f4e2e61.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (32 of 61)
+[2021-04-26 12:37:43] Importing time_t.h.622de3ae.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (33 of 61)
+[2021-04-26 12:37:43] Importing timer_t.h.39506049.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (34 of 61)
+[2021-04-26 12:37:43] Importing stddef.h.a7d3cc91.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (35 of 61)
+[2021-04-26 12:37:43] Importing stdint-intn.h.3a2bc0a5.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (36 of 61)
+[2021-04-26 12:37:43] Importing endianness.h.91b0a2c0.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (37 of 61)
+[2021-04-26 12:37:43] Importing endian.h.197889e3.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (38 of 61)
+[2021-04-26 12:37:43] Importing byteswap.h.3b72e92c.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (39 of 61)
+[2021-04-26 12:37:43] Importing uintn-identity.h.faa9faab.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (40 of 61)
+[2021-04-26 12:37:43] Importing endian.h.ae417b55.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (41 of 61)
+[2021-04-26 12:37:43] Importing select.h.93fa2df4.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (42 of 61)
+[2021-04-26 12:37:43] Importing __sigset_t.h.58b82540.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (43 of 61)
+[2021-04-26 12:37:43] Importing sigset_t.h.f286b014.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (44 of 61)
+[2021-04-26 12:37:43] Importing struct_timeval.h.9ca227e3.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (45 of 61)
+[2021-04-26 12:37:43] Importing struct_timespec.h.07032d39.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (46 of 61)
+[2021-04-26 12:37:43] Importing select.h.5d5ddb85.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (47 of 61)
+[2021-04-26 12:37:43] Importing pthreadtypes-arch.h.47e558dd.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (48 of 61)
+[2021-04-26 12:37:43] Importing struct_mutex.h.bdae4b9a.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (49 of 61)
+[2021-04-26 12:37:43] Importing struct_rwlock.h.5550c404.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (50 of 61)
+[2021-04-26 12:37:43] Importing thread-shared-types.h.b8e19b46.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (51 of 61)
+[2021-04-26 12:37:43] Importing pthreadtypes.h.a2eb9027.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (52 of 61)
+[2021-04-26 12:37:43] Importing types.h.70041e49.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (53 of 61)
+[2021-04-26 12:37:43] Importing stddef.h.9f249d30.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (54 of 61)
+[2021-04-26 12:37:43] Importing alloca.h.861247e4.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (55 of 61)
+[2021-04-26 12:37:43] Importing stdlib-float.h.392ae7f4.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (56 of 61)
+[2021-04-26 12:37:43] Importing stdlib.h.c93f34e5.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (57 of 61)
+[2021-04-26 12:37:43] Importing fopen_test.c.df9ef991.trap (fopen_test.c.df9ef991_0.trap.tar.br) for a.out.link (58 of 61)
+[2021-04-26 12:37:43] Importing 53056267_0.trap.br for a.out.link (59 of 61)
+[2021-04-26 12:37:43] Importing a.out.trap.br for a.out.link (60 of 61)
+[2021-04-26 12:37:43] Importing sourceLocationPrefix.trap.gz for no link target (61 of 61)
+[2021-04-26 12:37:43] Merging 1 fragment for builtintypes.
+[2021-04-26 12:37:43] Merging 1 fragment for unspecifiedtype.
+[2021-04-26 12:37:43] Merging 1 fragment for files.
+[2021-04-26 12:37:43] Merging 1 fragment for locations_default.
+[2021-04-26 12:37:43] Merging 1 fragment for link_targets.
+[2021-04-26 12:37:43] Merging 1 fragment for locations_stmt.
+[2021-04-26 12:37:43] Merging 1 fragment for locations_expr.
+[2021-04-26 12:37:43] Merging 1 fragment for usertypes.
+[2021-04-26 12:37:43] Merging 1 fragment for link_parent.
+[2021-04-26 12:37:43] Merging 1 fragment for usertypesize.
+[2021-04-26 12:37:43] Merging 1 fragment for is_pod_class.
+[2021-04-26 12:37:43] Merging 1 fragment for is_standard_layout_class.
+[2021-04-26 12:37:43] Merging 1 fragment for is_complete.
+[2021-04-26 12:37:43] Merging 1 fragment for membervariables.
+[2021-04-26 12:37:43] Merging 1 fragment for fieldoffsets.
+[2021-04-26 12:37:43] Merging 1 fragment for var_decls.
+[2021-04-26 12:37:43] Merging 1 fragment for var_def.
+[2021-04-26 12:37:43] Merging 1 fragment for derivedtypes.
+[2021-04-26 12:37:43] Merging 1 fragment for pointerishsize.
+[2021-04-26 12:37:43] Merging 1 fragment for member.
+[2021-04-26 12:37:43] Merging 1 fragment for namespaces.
+[2021-04-26 12:37:43] Merging 1 fragment for specialnamequalifyingelements.
+[2021-04-26 12:37:43] Merging 1 fragment for mangled_name.
+[2021-04-26 12:37:43] Merging 1 fragment for specifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for numlines.
+[2021-04-26 12:37:43] Merging 1 fragment for preprocdirects.
+[2021-04-26 12:37:43] Merging 1 fragment for preproctext.
+[2021-04-26 12:37:43] Merging 1 fragment for preprocfalse.
+[2021-04-26 12:37:43] Merging 1 fragment for macroinvocations.
+[2021-04-26 12:37:43] Merging 1 fragment for comments.
+[2021-04-26 12:37:43] Merging 1 fragment for commentbinding.
+[2021-04-26 12:37:43] Merging 1 fragment for containerparent.
+[2021-04-26 12:37:43] Merging 1 fragment for folders.
+[2021-04-26 12:37:43] Merging 1 fragment for preprocpair.
+[2021-04-26 12:37:43] Merging 1 fragment for preproctrue.
+[2021-04-26 12:37:43] Merging 1 fragment for includes.
+[2021-04-26 12:37:43] Merging 1 fragment for macro_argument_unexpanded.
+[2021-04-26 12:37:43] Merging 1 fragment for macro_argument_expanded.
+[2021-04-26 12:37:43] Merging 1 fragment for macroparent.
+[2021-04-26 12:37:43] Merging 1 fragment for typedefbase.
+[2021-04-26 12:37:43] Merging 1 fragment for type_decls.
+[2021-04-26 12:37:43] Merging 1 fragment for type_decl_top.
+[2021-04-26 12:37:43] Merging 1 fragment for arraysizes.
+[2021-04-26 12:37:43] Merging 1 fragment for type_mentions.
+[2021-04-26 12:37:43] Merging 1 fragment for type_def.
+[2021-04-26 12:37:43] Merging 1 fragment for values.
+[2021-04-26 12:37:43] Merging 1 fragment for exprs.
+[2021-04-26 12:37:43] Merging 1 fragment for expr_types.
+[2021-04-26 12:37:43] Merging 1 fragment for valuebind.
+[2021-04-26 12:37:43] Merging 1 fragment for inmacroexpansion.
+[2021-04-26 12:37:43] Merging 1 fragment for macrolocationbind.
+[2021-04-26 12:37:43] Merging 1 fragment for varspecifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for valuetext.
+[2021-04-26 12:37:43] Merging 1 fragment for compgenerated.
+[2021-04-26 12:37:43] Merging 1 fragment for sizeof_bind.
+[2021-04-26 12:37:43] Merging 1 fragment for exprconv.
+[2021-04-26 12:37:43] Merging 1 fragment for conversionkinds.
+[2021-04-26 12:37:43] Merging 1 fragment for exprparents.
+[2021-04-26 12:37:43] Merging 1 fragment for globalvariables.
+[2021-04-26 12:37:43] Merging 1 fragment for var_decl_specifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for typespecifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for functions.
+[2021-04-26 12:37:43] Merging 1 fragment for function_return_type.
+[2021-04-26 12:37:43] Merging 1 fragment for params.
+[2021-04-26 12:37:43] Merging 1 fragment for fun_decls.
+[2021-04-26 12:37:43] Merging 1 fragment for fun_decl_specifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for param_decl_bind.
+[2021-04-26 12:37:43] Merging 1 fragment for attributes.
+[2021-04-26 12:37:43] Merging 1 fragment for funcattributes.
+[2021-04-26 12:37:43] Merging 1 fragment for attribute_arg_value.
+[2021-04-26 12:37:43] Merging 1 fragment for attribute_args.
+[2021-04-26 12:37:43] Merging 1 fragment for funspecifiers.
+[2021-04-26 12:37:43] Merging 1 fragment for enumconstants.
+[2021-04-26 12:37:43] Merging 1 fragment for initialisers.
+[2021-04-26 12:37:43] Merging 1 fragment for fun_def.
+[2021-04-26 12:37:43] Merging 1 fragment for stmts.
+[2021-04-26 12:37:43] Merging 1 fragment for routinetypes.
+[2021-04-26 12:37:43] Merging 1 fragment for routinetypeargs.
+[2021-04-26 12:37:43] Merging 1 fragment for funbind.
+[2021-04-26 12:37:43] Merging 1 fragment for expr_isload.
+[2021-04-26 12:37:43] Merging 1 fragment for affectedbymacroexpansion.
+[2021-04-26 12:37:43] Merging 1 fragment for stmtparents.
+[2021-04-26 12:37:43] Merging 1 fragment for blockscope.
+[2021-04-26 12:37:43] Merging 1 fragment for function_entry_point.
+[2021-04-26 12:37:43] Merging 1 fragment for iscall.
+[2021-04-26 12:37:43] Merging 1 fragment for varbind.
+[2021-04-26 12:37:43] Merging 1 fragment for typeattributes.
+[2021-04-26 12:37:43] Merging 1 fragment for fileannotations.
+[2021-04-26 12:37:43] Merging 1 fragment for localvariables.
+[2021-04-26 12:37:43] Merging 1 fragment for stmt_decl_bind.
+[2021-04-26 12:37:43] Merging 1 fragment for stmt_decl_entry_bind.
+[2021-04-26 12:37:43] Merging 1 fragment for compilations.
+[2021-04-26 12:37:43] Merging 1 fragment for compilation_args.
+[2021-04-26 12:37:43] Merging 1 fragment for compilation_compiling_files.
+[2021-04-26 12:37:43] Merging 1 fragment for compilation_time.
+[2021-04-26 12:37:43] Merging 1 fragment for compilation_finished.
+[2021-04-26 12:37:43] Merging 1 fragment for sourceLocationPrefix.
+[2021-04-26 12:37:43] Saving string and id pools to disk.
+[2021-04-26 12:37:43] Finished importing trap files.
+[2021-04-26 12:37:43] Stopped the world to close the cache at sequence stamp o+3
+[2021-04-26 12:37:43] The disk cache is freshly trimmed; leave it be.
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] Plumbing command codeql dataset import completed.
+[2021-04-26 12:37:43] [PROGRESS] database finalize> TRAP import complete (807ms).
+[2021-04-26 12:37:43] Running plumbing command: codeql database cleanup --mode=normal -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db
+[2021-04-26 12:37:43] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2021-04-26 12:37:43] [PROGRESS] database cleanup> TRAP files cleaned up (1ms).
+[2021-04-26 12:37:43] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2021-04-26 12:37:43] [PROGRESS] database cleanup> Scratch directory cleaned up (0ms).
+[2021-04-26 12:37:43] Running plumbing command: codeql dataset cleanup --mode=normal -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp
+[2021-04-26 12:37:43] [PROGRESS] dataset cleanup> Cleaning up dataset in /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp.
+[2021-04-26 12:37:43] Trimming disk cache at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp/default/cache in mode normal.
+[2021-04-26 12:37:43] Sequence stamp origin is -6598379456978758045
+[2021-04-26 12:37:43] Stopped the world to zealously trim disk at sequence stamp o+0
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] Trimming completed (1ms): Trimmed disposable data from cache.
+[2021-04-26 12:37:43] Stopped the world to close the cache at sequence stamp o+1
+[2021-04-26 12:37:43] The disk cache is freshly trimmed; leave it be.
+[2021-04-26 12:37:43] Starting the world again
+[2021-04-26 12:37:43] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2021-04-26 12:37:43] Plumbing command codeql dataset cleanup completed.
+[2021-04-26 12:37:43] Plumbing command codeql database cleanup completed with status 0.
+[2021-04-26 12:37:43] Plumbing command codeql database finalize completed with status 0.
+[2021-04-26 12:37:43] [PROGRESS] database create> Successfully created database at /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db.
+[2021-04-26 12:37:43] Terminating normally.

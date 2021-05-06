@@ -1,0 +1,11 @@
+[2021-04-26 12:47:50] This is codeql query run data_flow_2.ql -d=codeql_db
+[2021-04-26 12:47:50] Log file was started late.
+[2021-04-26 12:47:50] Calling plumbing command: codeql resolve ram --format=json
+[2021-04-26 12:47:50] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1591M",
+                        "--off-heap-ram=1591"
+                      ]
+[2021-04-26 12:47:50] Spawning plumbing command: execute queries -J-Xmx1591M --off-heap-ram=1591 --verbosity=progress --logdir=/home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/log --ml-model-path= --native-library-path= --warnings=show -- /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/codeql_db/db-cpp /home/akhil/compilers/codeql-compilers-repo/test_dir/fopen_test/data_flow_2.ql
+[2021-04-26 12:47:53] Plumbing command codeql execute queries terminated with status 0.
+[2021-04-26 12:47:53] Exiting with code 0
